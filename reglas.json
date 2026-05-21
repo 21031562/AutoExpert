@@ -12,7 +12,6 @@
         "solucion": "cargar_o_cambiar_bateria",
         "prioridad": 10
     },
-
     {
         "id": "R002",
         "modulo": "arranque",
@@ -25,7 +24,6 @@
         "solucion": "reemplazar_fusible",
         "prioridad": 9
     },
-
     {
         "id": "R003",
         "modulo": "motor",
@@ -37,5 +35,2501 @@
         "prueba": "prueba_compresion",
         "solucion": "reemplazar_empaque",
         "prioridad": 10
+    },
+    {
+        "id": "R004",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_001",
+        "prueba": "verificar_arranque_02",
+        "solucion": "aplicar_arranque_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R005",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_002",
+        "prueba": "verificar_arranque_03",
+        "solucion": "aplicar_arranque_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R006",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_003",
+        "prueba": "verificar_arranque_04",
+        "solucion": "aplicar_arranque_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R007",
+        "modulo": "arranque",
+        "condiciones": [
+            "rele_arranque_sin_respuesta",
+            "olor_a_quemado_en_arranque",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "arranque_falla_004",
+        "prueba": "verificar_arranque_05",
+        "solucion": "aplicar_arranque_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R008",
+        "modulo": "arranque",
+        "condiciones": [
+            "arranque_intermitente",
+            "arranque_lento",
+            "motor_no_gira"
+        ],
+        "diagnostico": "arranque_falla_005",
+        "prueba": "verificar_arranque_06",
+        "solucion": "aplicar_arranque_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R009",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_006",
+        "prueba": "verificar_arranque_07",
+        "solucion": "aplicar_arranque_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R010",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_007",
+        "prueba": "verificar_arranque_08",
+        "solucion": "aplicar_arranque_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R011",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_008",
+        "prueba": "verificar_arranque_09",
+        "solucion": "aplicar_arranque_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R012",
+        "modulo": "arranque",
+        "condiciones": [
+            "rele_arranque_sin_respuesta",
+            "olor_a_quemado_en_arranque",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "arranque_falla_009",
+        "prueba": "verificar_arranque_10",
+        "solucion": "aplicar_arranque_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R013",
+        "modulo": "arranque",
+        "condiciones": [
+            "arranque_intermitente",
+            "arranque_lento",
+            "motor_no_gira"
+        ],
+        "diagnostico": "arranque_falla_010",
+        "prueba": "verificar_arranque_11",
+        "solucion": "aplicar_arranque_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R014",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_011",
+        "prueba": "verificar_arranque_12",
+        "solucion": "aplicar_arranque_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R015",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_012",
+        "prueba": "verificar_arranque_13",
+        "solucion": "aplicar_arranque_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R016",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_013",
+        "prueba": "verificar_arranque_14",
+        "solucion": "aplicar_arranque_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R017",
+        "modulo": "arranque",
+        "condiciones": [
+            "rele_arranque_sin_respuesta",
+            "olor_a_quemado_en_arranque",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "arranque_falla_014",
+        "prueba": "verificar_arranque_15",
+        "solucion": "aplicar_arranque_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R018",
+        "modulo": "arranque",
+        "condiciones": [
+            "arranque_intermitente",
+            "arranque_lento",
+            "motor_no_gira"
+        ],
+        "diagnostico": "arranque_falla_015",
+        "prueba": "verificar_arranque_01",
+        "solucion": "aplicar_arranque_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R019",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_016",
+        "prueba": "verificar_arranque_02",
+        "solucion": "aplicar_arranque_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R020",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_017",
+        "prueba": "verificar_arranque_03",
+        "solucion": "aplicar_arranque_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R021",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_018",
+        "prueba": "verificar_arranque_04",
+        "solucion": "aplicar_arranque_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R022",
+        "modulo": "arranque",
+        "condiciones": [
+            "rele_arranque_sin_respuesta",
+            "olor_a_quemado_en_arranque",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "arranque_falla_019",
+        "prueba": "verificar_arranque_05",
+        "solucion": "aplicar_arranque_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R023",
+        "modulo": "arranque",
+        "condiciones": [
+            "arranque_intermitente",
+            "arranque_lento",
+            "motor_no_gira"
+        ],
+        "diagnostico": "arranque_falla_020",
+        "prueba": "verificar_arranque_06",
+        "solucion": "aplicar_arranque_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R024",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_021",
+        "prueba": "verificar_arranque_07",
+        "solucion": "aplicar_arranque_solucion_07",
+        "prioridad": 2
+    },
+    {
+        "id": "R025",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_022",
+        "prueba": "verificar_arranque_08",
+        "solucion": "aplicar_arranque_solucion_08",
+        "prioridad": 3
+    },
+    {
+        "id": "R026",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_023",
+        "prueba": "verificar_arranque_09",
+        "solucion": "aplicar_arranque_solucion_09",
+        "prioridad": 4
+    },
+    {
+        "id": "R027",
+        "modulo": "arranque",
+        "condiciones": [
+            "rele_arranque_sin_respuesta",
+            "olor_a_quemado_en_arranque",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "arranque_falla_024",
+        "prueba": "verificar_arranque_10",
+        "solucion": "aplicar_arranque_solucion_10",
+        "prioridad": 5
+    },
+    {
+        "id": "R028",
+        "modulo": "arranque",
+        "condiciones": [
+            "arranque_intermitente",
+            "arranque_lento",
+            "motor_no_gira"
+        ],
+        "diagnostico": "arranque_falla_025",
+        "prueba": "verificar_arranque_11",
+        "solucion": "aplicar_arranque_solucion_11",
+        "prioridad": 6
+    },
+    {
+        "id": "R029",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "rele_arranque_sin_respuesta"
+        ],
+        "diagnostico": "arranque_falla_026",
+        "prueba": "verificar_arranque_12",
+        "solucion": "aplicar_arranque_solucion_12",
+        "prioridad": 7
+    },
+    {
+        "id": "R030",
+        "modulo": "arranque",
+        "condiciones": [
+            "click_al_girar_llave",
+            "luces_tenue",
+            "arranque_intermitente"
+        ],
+        "diagnostico": "arranque_falla_027",
+        "prueba": "verificar_arranque_13",
+        "solucion": "aplicar_arranque_solucion_13",
+        "prioridad": 8
+    },
+    {
+        "id": "R031",
+        "modulo": "arranque",
+        "condiciones": [
+            "motor_no_gira",
+            "sin_corriente_en_borne",
+            "no_enciende"
+        ],
+        "diagnostico": "arranque_falla_028",
+        "prueba": "verificar_arranque_14",
+        "solucion": "aplicar_arranque_solucion_14",
+        "prioridad": 9
+    },
+    {
+        "id": "R032",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_001",
+        "prueba": "verificar_motor_02",
+        "solucion": "aplicar_motor_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R033",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_002",
+        "prueba": "verificar_motor_03",
+        "solucion": "aplicar_motor_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R034",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_003",
+        "prueba": "verificar_motor_04",
+        "solucion": "aplicar_motor_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R035",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_004",
+        "prueba": "verificar_motor_05",
+        "solucion": "aplicar_motor_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R036",
+        "modulo": "motor",
+        "condiciones": [
+            "tirones_al_acelerar",
+            "vibracion_excesiva",
+            "humo_azul"
+        ],
+        "diagnostico": "motor_falla_005",
+        "prueba": "verificar_motor_06",
+        "solucion": "aplicar_motor_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R037",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_006",
+        "prueba": "verificar_motor_07",
+        "solucion": "aplicar_motor_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R038",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_007",
+        "prueba": "verificar_motor_08",
+        "solucion": "aplicar_motor_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R039",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_008",
+        "prueba": "verificar_motor_09",
+        "solucion": "aplicar_motor_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R040",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_009",
+        "prueba": "verificar_motor_10",
+        "solucion": "aplicar_motor_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R041",
+        "modulo": "motor",
+        "condiciones": [
+            "tirones_al_acelerar",
+            "vibracion_excesiva",
+            "humo_azul"
+        ],
+        "diagnostico": "motor_falla_010",
+        "prueba": "verificar_motor_11",
+        "solucion": "aplicar_motor_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R042",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_011",
+        "prueba": "verificar_motor_12",
+        "solucion": "aplicar_motor_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R043",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_012",
+        "prueba": "verificar_motor_13",
+        "solucion": "aplicar_motor_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R044",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_013",
+        "prueba": "verificar_motor_14",
+        "solucion": "aplicar_motor_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R045",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_014",
+        "prueba": "verificar_motor_15",
+        "solucion": "aplicar_motor_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R046",
+        "modulo": "motor",
+        "condiciones": [
+            "tirones_al_acelerar",
+            "vibracion_excesiva",
+            "humo_azul"
+        ],
+        "diagnostico": "motor_falla_015",
+        "prueba": "verificar_motor_01",
+        "solucion": "aplicar_motor_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R047",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_016",
+        "prueba": "verificar_motor_02",
+        "solucion": "aplicar_motor_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R048",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_017",
+        "prueba": "verificar_motor_03",
+        "solucion": "aplicar_motor_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R049",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_018",
+        "prueba": "verificar_motor_04",
+        "solucion": "aplicar_motor_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R050",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_019",
+        "prueba": "verificar_motor_05",
+        "solucion": "aplicar_motor_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R051",
+        "modulo": "motor",
+        "condiciones": [
+            "tirones_al_acelerar",
+            "vibracion_excesiva",
+            "humo_azul"
+        ],
+        "diagnostico": "motor_falla_020",
+        "prueba": "verificar_motor_06",
+        "solucion": "aplicar_motor_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R052",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_021",
+        "prueba": "verificar_motor_07",
+        "solucion": "aplicar_motor_solucion_07",
+        "prioridad": 2
+    },
+    {
+        "id": "R053",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_022",
+        "prueba": "verificar_motor_08",
+        "solucion": "aplicar_motor_solucion_08",
+        "prioridad": 3
+    },
+    {
+        "id": "R054",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_023",
+        "prueba": "verificar_motor_09",
+        "solucion": "aplicar_motor_solucion_09",
+        "prioridad": 4
+    },
+    {
+        "id": "R055",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_024",
+        "prueba": "verificar_motor_10",
+        "solucion": "aplicar_motor_solucion_10",
+        "prioridad": 5
+    },
+    {
+        "id": "R056",
+        "modulo": "motor",
+        "condiciones": [
+            "tirones_al_acelerar",
+            "vibracion_excesiva",
+            "humo_azul"
+        ],
+        "diagnostico": "motor_falla_025",
+        "prueba": "verificar_motor_11",
+        "solucion": "aplicar_motor_solucion_11",
+        "prioridad": 6
+    },
+    {
+        "id": "R057",
+        "modulo": "motor",
+        "condiciones": [
+            "ralenti_inestable",
+            "humo_negro",
+            "fallo_encendido"
+        ],
+        "diagnostico": "motor_falla_026",
+        "prueba": "verificar_motor_12",
+        "solucion": "aplicar_motor_solucion_12",
+        "prioridad": 7
+    },
+    {
+        "id": "R058",
+        "modulo": "motor",
+        "condiciones": [
+            "perdida_potencia",
+            "consumo_aceite_alto",
+            "tirones_al_acelerar"
+        ],
+        "diagnostico": "motor_falla_027",
+        "prueba": "verificar_motor_13",
+        "solucion": "aplicar_motor_solucion_13",
+        "prioridad": 8
+    },
+    {
+        "id": "R059",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_azul",
+            "cascabeleo_acelerar",
+            "ralenti_inestable"
+        ],
+        "diagnostico": "motor_falla_028",
+        "prueba": "verificar_motor_14",
+        "solucion": "aplicar_motor_solucion_14",
+        "prioridad": 9
+    },
+    {
+        "id": "R060",
+        "modulo": "motor",
+        "condiciones": [
+            "fallo_encendido",
+            "detonacion_en_carga",
+            "perdida_potencia"
+        ],
+        "diagnostico": "motor_falla_029",
+        "prueba": "verificar_motor_15",
+        "solucion": "aplicar_motor_solucion_15",
+        "prioridad": 10
+    },
+    {
+        "id": "R061",
+        "modulo": "combustible",
+        "condiciones": [
+            "consumo_combustible_alto",
+            "arranque_dificil_frio",
+            "presion_combustible_baja"
+        ],
+        "diagnostico": "combustible_falla_001",
+        "prueba": "verificar_combustible_02",
+        "solucion": "aplicar_combustible_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R062",
+        "modulo": "combustible",
+        "condiciones": [
+            "falla_al_acelerar",
+            "bomba_ruidosa",
+            "motor_se_apaga_en_marcha"
+        ],
+        "diagnostico": "combustible_falla_002",
+        "prueba": "verificar_combustible_03",
+        "solucion": "aplicar_combustible_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R063",
+        "modulo": "combustible",
+        "condiciones": [
+            "arranque_dificil_caliente",
+            "inyector_sucio",
+            "consumo_combustible_alto"
+        ],
+        "diagnostico": "combustible_falla_003",
+        "prueba": "verificar_combustible_04",
+        "solucion": "aplicar_combustible_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R064",
+        "modulo": "combustible",
+        "condiciones": [
+            "presion_combustible_baja",
+            "respuesta_lenta_acelerador",
+            "falla_al_acelerar"
+        ],
+        "diagnostico": "combustible_falla_004",
+        "prueba": "verificar_combustible_05",
+        "solucion": "aplicar_combustible_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R065",
+        "modulo": "combustible",
+        "condiciones": [
+            "motor_se_apaga_en_marcha",
+            "olor_gasolina",
+            "arranque_dificil_caliente"
+        ],
+        "diagnostico": "combustible_falla_005",
+        "prueba": "verificar_combustible_06",
+        "solucion": "aplicar_combustible_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R066",
+        "modulo": "combustible",
+        "condiciones": [
+            "consumo_combustible_alto",
+            "arranque_dificil_frio",
+            "presion_combustible_baja"
+        ],
+        "diagnostico": "combustible_falla_006",
+        "prueba": "verificar_combustible_07",
+        "solucion": "aplicar_combustible_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R067",
+        "modulo": "combustible",
+        "condiciones": [
+            "falla_al_acelerar",
+            "bomba_ruidosa",
+            "motor_se_apaga_en_marcha"
+        ],
+        "diagnostico": "combustible_falla_007",
+        "prueba": "verificar_combustible_08",
+        "solucion": "aplicar_combustible_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R068",
+        "modulo": "combustible",
+        "condiciones": [
+            "arranque_dificil_caliente",
+            "inyector_sucio",
+            "consumo_combustible_alto"
+        ],
+        "diagnostico": "combustible_falla_008",
+        "prueba": "verificar_combustible_09",
+        "solucion": "aplicar_combustible_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R069",
+        "modulo": "combustible",
+        "condiciones": [
+            "presion_combustible_baja",
+            "respuesta_lenta_acelerador",
+            "falla_al_acelerar"
+        ],
+        "diagnostico": "combustible_falla_009",
+        "prueba": "verificar_combustible_10",
+        "solucion": "aplicar_combustible_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R070",
+        "modulo": "combustible",
+        "condiciones": [
+            "motor_se_apaga_en_marcha",
+            "olor_gasolina",
+            "arranque_dificil_caliente"
+        ],
+        "diagnostico": "combustible_falla_010",
+        "prueba": "verificar_combustible_11",
+        "solucion": "aplicar_combustible_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R071",
+        "modulo": "combustible",
+        "condiciones": [
+            "consumo_combustible_alto",
+            "arranque_dificil_frio",
+            "presion_combustible_baja"
+        ],
+        "diagnostico": "combustible_falla_011",
+        "prueba": "verificar_combustible_12",
+        "solucion": "aplicar_combustible_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R072",
+        "modulo": "combustible",
+        "condiciones": [
+            "falla_al_acelerar",
+            "bomba_ruidosa",
+            "motor_se_apaga_en_marcha"
+        ],
+        "diagnostico": "combustible_falla_012",
+        "prueba": "verificar_combustible_13",
+        "solucion": "aplicar_combustible_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R073",
+        "modulo": "combustible",
+        "condiciones": [
+            "arranque_dificil_caliente",
+            "inyector_sucio",
+            "consumo_combustible_alto"
+        ],
+        "diagnostico": "combustible_falla_013",
+        "prueba": "verificar_combustible_14",
+        "solucion": "aplicar_combustible_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R074",
+        "modulo": "combustible",
+        "condiciones": [
+            "presion_combustible_baja",
+            "respuesta_lenta_acelerador",
+            "falla_al_acelerar"
+        ],
+        "diagnostico": "combustible_falla_014",
+        "prueba": "verificar_combustible_15",
+        "solucion": "aplicar_combustible_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R075",
+        "modulo": "combustible",
+        "condiciones": [
+            "motor_se_apaga_en_marcha",
+            "olor_gasolina",
+            "arranque_dificil_caliente"
+        ],
+        "diagnostico": "combustible_falla_015",
+        "prueba": "verificar_combustible_01",
+        "solucion": "aplicar_combustible_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R076",
+        "modulo": "combustible",
+        "condiciones": [
+            "consumo_combustible_alto",
+            "arranque_dificil_frio",
+            "presion_combustible_baja"
+        ],
+        "diagnostico": "combustible_falla_016",
+        "prueba": "verificar_combustible_02",
+        "solucion": "aplicar_combustible_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R077",
+        "modulo": "combustible",
+        "condiciones": [
+            "falla_al_acelerar",
+            "bomba_ruidosa",
+            "motor_se_apaga_en_marcha"
+        ],
+        "diagnostico": "combustible_falla_017",
+        "prueba": "verificar_combustible_03",
+        "solucion": "aplicar_combustible_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R078",
+        "modulo": "combustible",
+        "condiciones": [
+            "arranque_dificil_caliente",
+            "inyector_sucio",
+            "consumo_combustible_alto"
+        ],
+        "diagnostico": "combustible_falla_018",
+        "prueba": "verificar_combustible_04",
+        "solucion": "aplicar_combustible_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R079",
+        "modulo": "combustible",
+        "condiciones": [
+            "presion_combustible_baja",
+            "respuesta_lenta_acelerador",
+            "falla_al_acelerar"
+        ],
+        "diagnostico": "combustible_falla_019",
+        "prueba": "verificar_combustible_05",
+        "solucion": "aplicar_combustible_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R080",
+        "modulo": "combustible",
+        "condiciones": [
+            "motor_se_apaga_en_marcha",
+            "olor_gasolina",
+            "arranque_dificil_caliente"
+        ],
+        "diagnostico": "combustible_falla_020",
+        "prueba": "verificar_combustible_06",
+        "solucion": "aplicar_combustible_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R081",
+        "modulo": "combustible",
+        "condiciones": [
+            "consumo_combustible_alto",
+            "arranque_dificil_frio",
+            "presion_combustible_baja"
+        ],
+        "diagnostico": "combustible_falla_021",
+        "prueba": "verificar_combustible_07",
+        "solucion": "aplicar_combustible_solucion_07",
+        "prioridad": 2
+    },
+    {
+        "id": "R082",
+        "modulo": "combustible",
+        "condiciones": [
+            "falla_al_acelerar",
+            "bomba_ruidosa",
+            "motor_se_apaga_en_marcha"
+        ],
+        "diagnostico": "combustible_falla_022",
+        "prueba": "verificar_combustible_08",
+        "solucion": "aplicar_combustible_solucion_08",
+        "prioridad": 3
+    },
+    {
+        "id": "R083",
+        "modulo": "combustible",
+        "condiciones": [
+            "arranque_dificil_caliente",
+            "inyector_sucio",
+            "consumo_combustible_alto"
+        ],
+        "diagnostico": "combustible_falla_023",
+        "prueba": "verificar_combustible_09",
+        "solucion": "aplicar_combustible_solucion_09",
+        "prioridad": 4
+    },
+    {
+        "id": "R084",
+        "modulo": "combustible",
+        "condiciones": [
+            "presion_combustible_baja",
+            "respuesta_lenta_acelerador",
+            "falla_al_acelerar"
+        ],
+        "diagnostico": "combustible_falla_024",
+        "prueba": "verificar_combustible_10",
+        "solucion": "aplicar_combustible_solucion_10",
+        "prioridad": 5
+    },
+    {
+        "id": "R085",
+        "modulo": "combustible",
+        "condiciones": [
+            "motor_se_apaga_en_marcha",
+            "olor_gasolina",
+            "arranque_dificil_caliente"
+        ],
+        "diagnostico": "combustible_falla_025",
+        "prueba": "verificar_combustible_11",
+        "solucion": "aplicar_combustible_solucion_11",
+        "prioridad": 6
+    },
+    {
+        "id": "R086",
+        "modulo": "frenos",
+        "condiciones": [
+            "pedal_esponjoso",
+            "vibracion_pedal",
+            "freno_mano_sin_retener"
+        ],
+        "diagnostico": "frenos_falla_001",
+        "prueba": "verificar_frenos_02",
+        "solucion": "aplicar_frenos_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R087",
+        "modulo": "frenos",
+        "condiciones": [
+            "ruido_al_frenar",
+            "testigo_freno_encendido",
+            "chirrido_constante"
+        ],
+        "diagnostico": "frenos_falla_002",
+        "prueba": "verificar_frenos_03",
+        "solucion": "aplicar_frenos_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R088",
+        "modulo": "frenos",
+        "condiciones": [
+            "desviacion_al_frenar",
+            "disco_sobrecalentado",
+            "pedal_esponjoso"
+        ],
+        "diagnostico": "frenos_falla_003",
+        "prueba": "verificar_frenos_04",
+        "solucion": "aplicar_frenos_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R089",
+        "modulo": "frenos",
+        "condiciones": [
+            "freno_mano_sin_retener",
+            "nivel_liquido_bajo",
+            "ruido_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_004",
+        "prueba": "verificar_frenos_05",
+        "solucion": "aplicar_frenos_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R090",
+        "modulo": "frenos",
+        "condiciones": [
+            "chirrido_constante",
+            "frenado_largo",
+            "desviacion_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_005",
+        "prueba": "verificar_frenos_06",
+        "solucion": "aplicar_frenos_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R091",
+        "modulo": "frenos",
+        "condiciones": [
+            "pedal_esponjoso",
+            "vibracion_pedal",
+            "freno_mano_sin_retener"
+        ],
+        "diagnostico": "frenos_falla_006",
+        "prueba": "verificar_frenos_07",
+        "solucion": "aplicar_frenos_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R092",
+        "modulo": "frenos",
+        "condiciones": [
+            "ruido_al_frenar",
+            "testigo_freno_encendido",
+            "chirrido_constante"
+        ],
+        "diagnostico": "frenos_falla_007",
+        "prueba": "verificar_frenos_08",
+        "solucion": "aplicar_frenos_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R093",
+        "modulo": "frenos",
+        "condiciones": [
+            "desviacion_al_frenar",
+            "disco_sobrecalentado",
+            "pedal_esponjoso"
+        ],
+        "diagnostico": "frenos_falla_008",
+        "prueba": "verificar_frenos_09",
+        "solucion": "aplicar_frenos_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R094",
+        "modulo": "frenos",
+        "condiciones": [
+            "freno_mano_sin_retener",
+            "nivel_liquido_bajo",
+            "ruido_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_009",
+        "prueba": "verificar_frenos_10",
+        "solucion": "aplicar_frenos_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R095",
+        "modulo": "frenos",
+        "condiciones": [
+            "chirrido_constante",
+            "frenado_largo",
+            "desviacion_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_010",
+        "prueba": "verificar_frenos_11",
+        "solucion": "aplicar_frenos_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R096",
+        "modulo": "frenos",
+        "condiciones": [
+            "pedal_esponjoso",
+            "vibracion_pedal",
+            "freno_mano_sin_retener"
+        ],
+        "diagnostico": "frenos_falla_011",
+        "prueba": "verificar_frenos_12",
+        "solucion": "aplicar_frenos_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R097",
+        "modulo": "frenos",
+        "condiciones": [
+            "ruido_al_frenar",
+            "testigo_freno_encendido",
+            "chirrido_constante"
+        ],
+        "diagnostico": "frenos_falla_012",
+        "prueba": "verificar_frenos_13",
+        "solucion": "aplicar_frenos_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R098",
+        "modulo": "frenos",
+        "condiciones": [
+            "desviacion_al_frenar",
+            "disco_sobrecalentado",
+            "pedal_esponjoso"
+        ],
+        "diagnostico": "frenos_falla_013",
+        "prueba": "verificar_frenos_14",
+        "solucion": "aplicar_frenos_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R099",
+        "modulo": "frenos",
+        "condiciones": [
+            "freno_mano_sin_retener",
+            "nivel_liquido_bajo",
+            "ruido_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_014",
+        "prueba": "verificar_frenos_15",
+        "solucion": "aplicar_frenos_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R100",
+        "modulo": "frenos",
+        "condiciones": [
+            "chirrido_constante",
+            "frenado_largo",
+            "desviacion_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_015",
+        "prueba": "verificar_frenos_01",
+        "solucion": "aplicar_frenos_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R101",
+        "modulo": "frenos",
+        "condiciones": [
+            "pedal_esponjoso",
+            "vibracion_pedal",
+            "freno_mano_sin_retener"
+        ],
+        "diagnostico": "frenos_falla_016",
+        "prueba": "verificar_frenos_02",
+        "solucion": "aplicar_frenos_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R102",
+        "modulo": "frenos",
+        "condiciones": [
+            "ruido_al_frenar",
+            "testigo_freno_encendido",
+            "chirrido_constante"
+        ],
+        "diagnostico": "frenos_falla_017",
+        "prueba": "verificar_frenos_03",
+        "solucion": "aplicar_frenos_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R103",
+        "modulo": "frenos",
+        "condiciones": [
+            "desviacion_al_frenar",
+            "disco_sobrecalentado",
+            "pedal_esponjoso"
+        ],
+        "diagnostico": "frenos_falla_018",
+        "prueba": "verificar_frenos_04",
+        "solucion": "aplicar_frenos_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R104",
+        "modulo": "frenos",
+        "condiciones": [
+            "freno_mano_sin_retener",
+            "nivel_liquido_bajo",
+            "ruido_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_019",
+        "prueba": "verificar_frenos_05",
+        "solucion": "aplicar_frenos_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R105",
+        "modulo": "frenos",
+        "condiciones": [
+            "chirrido_constante",
+            "frenado_largo",
+            "desviacion_al_frenar"
+        ],
+        "diagnostico": "frenos_falla_020",
+        "prueba": "verificar_frenos_06",
+        "solucion": "aplicar_frenos_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R106",
+        "modulo": "temperatura",
+        "condiciones": [
+            "temperatura_alta",
+            "calefaccion_no_calienta",
+            "aguja_temperatura_inestable"
+        ],
+        "diagnostico": "temperatura_falla_001",
+        "prueba": "verificar_temperatura_02",
+        "solucion": "aplicar_temperatura_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R107",
+        "modulo": "temperatura",
+        "condiciones": [
+            "fuga_refrigerante",
+            "ebullicion_deposito",
+            "sobrecalentamiento_en_trafico"
+        ],
+        "diagnostico": "temperatura_falla_002",
+        "prueba": "verificar_temperatura_03",
+        "solucion": "aplicar_temperatura_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R108",
+        "modulo": "temperatura",
+        "condiciones": [
+            "manguera_radiador_dura",
+            "termostato_bloqueado",
+            "temperatura_alta"
+        ],
+        "diagnostico": "temperatura_falla_003",
+        "prueba": "verificar_temperatura_04",
+        "solucion": "aplicar_temperatura_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R109",
+        "modulo": "temperatura",
+        "condiciones": [
+            "aguja_temperatura_inestable",
+            "nivel_refrigerante_bajo",
+            "fuga_refrigerante"
+        ],
+        "diagnostico": "temperatura_falla_004",
+        "prueba": "verificar_temperatura_05",
+        "solucion": "aplicar_temperatura_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R110",
+        "modulo": "temperatura",
+        "condiciones": [
+            "sobrecalentamiento_en_trafico",
+            "ventilador_no_activa",
+            "manguera_radiador_dura"
+        ],
+        "diagnostico": "temperatura_falla_005",
+        "prueba": "verificar_temperatura_06",
+        "solucion": "aplicar_temperatura_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R111",
+        "modulo": "temperatura",
+        "condiciones": [
+            "temperatura_alta",
+            "calefaccion_no_calienta",
+            "aguja_temperatura_inestable"
+        ],
+        "diagnostico": "temperatura_falla_006",
+        "prueba": "verificar_temperatura_07",
+        "solucion": "aplicar_temperatura_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R112",
+        "modulo": "temperatura",
+        "condiciones": [
+            "fuga_refrigerante",
+            "ebullicion_deposito",
+            "sobrecalentamiento_en_trafico"
+        ],
+        "diagnostico": "temperatura_falla_007",
+        "prueba": "verificar_temperatura_08",
+        "solucion": "aplicar_temperatura_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R113",
+        "modulo": "temperatura",
+        "condiciones": [
+            "manguera_radiador_dura",
+            "termostato_bloqueado",
+            "temperatura_alta"
+        ],
+        "diagnostico": "temperatura_falla_008",
+        "prueba": "verificar_temperatura_09",
+        "solucion": "aplicar_temperatura_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R114",
+        "modulo": "temperatura",
+        "condiciones": [
+            "aguja_temperatura_inestable",
+            "nivel_refrigerante_bajo",
+            "fuga_refrigerante"
+        ],
+        "diagnostico": "temperatura_falla_009",
+        "prueba": "verificar_temperatura_10",
+        "solucion": "aplicar_temperatura_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R115",
+        "modulo": "temperatura",
+        "condiciones": [
+            "sobrecalentamiento_en_trafico",
+            "ventilador_no_activa",
+            "manguera_radiador_dura"
+        ],
+        "diagnostico": "temperatura_falla_010",
+        "prueba": "verificar_temperatura_11",
+        "solucion": "aplicar_temperatura_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R116",
+        "modulo": "temperatura",
+        "condiciones": [
+            "temperatura_alta",
+            "calefaccion_no_calienta",
+            "aguja_temperatura_inestable"
+        ],
+        "diagnostico": "temperatura_falla_011",
+        "prueba": "verificar_temperatura_12",
+        "solucion": "aplicar_temperatura_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R117",
+        "modulo": "temperatura",
+        "condiciones": [
+            "fuga_refrigerante",
+            "ebullicion_deposito",
+            "sobrecalentamiento_en_trafico"
+        ],
+        "diagnostico": "temperatura_falla_012",
+        "prueba": "verificar_temperatura_13",
+        "solucion": "aplicar_temperatura_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R118",
+        "modulo": "temperatura",
+        "condiciones": [
+            "manguera_radiador_dura",
+            "termostato_bloqueado",
+            "temperatura_alta"
+        ],
+        "diagnostico": "temperatura_falla_013",
+        "prueba": "verificar_temperatura_14",
+        "solucion": "aplicar_temperatura_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R119",
+        "modulo": "temperatura",
+        "condiciones": [
+            "aguja_temperatura_inestable",
+            "nivel_refrigerante_bajo",
+            "fuga_refrigerante"
+        ],
+        "diagnostico": "temperatura_falla_014",
+        "prueba": "verificar_temperatura_15",
+        "solucion": "aplicar_temperatura_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R120",
+        "modulo": "temperatura",
+        "condiciones": [
+            "sobrecalentamiento_en_trafico",
+            "ventilador_no_activa",
+            "manguera_radiador_dura"
+        ],
+        "diagnostico": "temperatura_falla_015",
+        "prueba": "verificar_temperatura_01",
+        "solucion": "aplicar_temperatura_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R121",
+        "modulo": "temperatura",
+        "condiciones": [
+            "temperatura_alta",
+            "calefaccion_no_calienta",
+            "aguja_temperatura_inestable"
+        ],
+        "diagnostico": "temperatura_falla_016",
+        "prueba": "verificar_temperatura_02",
+        "solucion": "aplicar_temperatura_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R122",
+        "modulo": "temperatura",
+        "condiciones": [
+            "fuga_refrigerante",
+            "ebullicion_deposito",
+            "sobrecalentamiento_en_trafico"
+        ],
+        "diagnostico": "temperatura_falla_017",
+        "prueba": "verificar_temperatura_03",
+        "solucion": "aplicar_temperatura_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R123",
+        "modulo": "temperatura",
+        "condiciones": [
+            "manguera_radiador_dura",
+            "termostato_bloqueado",
+            "temperatura_alta"
+        ],
+        "diagnostico": "temperatura_falla_018",
+        "prueba": "verificar_temperatura_04",
+        "solucion": "aplicar_temperatura_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R124",
+        "modulo": "temperatura",
+        "condiciones": [
+            "aguja_temperatura_inestable",
+            "nivel_refrigerante_bajo",
+            "fuga_refrigerante"
+        ],
+        "diagnostico": "temperatura_falla_019",
+        "prueba": "verificar_temperatura_05",
+        "solucion": "aplicar_temperatura_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R125",
+        "modulo": "temperatura",
+        "condiciones": [
+            "sobrecalentamiento_en_trafico",
+            "ventilador_no_activa",
+            "manguera_radiador_dura"
+        ],
+        "diagnostico": "temperatura_falla_020",
+        "prueba": "verificar_temperatura_06",
+        "solucion": "aplicar_temperatura_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R126",
+        "modulo": "sensores",
+        "condiciones": [
+            "luz_check_engine",
+            "arranque_dificil",
+            "lectura_erratica_scaner"
+        ],
+        "diagnostico": "sensores_falla_001",
+        "prueba": "verificar_sensores_02",
+        "solucion": "aplicar_sensores_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R127",
+        "modulo": "sensores",
+        "condiciones": [
+            "consumo_alto",
+            "codigo_sensor_fuera_rango",
+            "respuesta_lenta_motor"
+        ],
+        "diagnostico": "sensores_falla_002",
+        "prueba": "verificar_sensores_03",
+        "solucion": "aplicar_sensores_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R128",
+        "modulo": "sensores",
+        "condiciones": [
+            "falla_en_aceleracion",
+            "modo_seguro_activado",
+            "luz_check_engine"
+        ],
+        "diagnostico": "sensores_falla_003",
+        "prueba": "verificar_sensores_04",
+        "solucion": "aplicar_sensores_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R129",
+        "modulo": "sensores",
+        "condiciones": [
+            "lectura_erratica_scaner",
+            "apagon_inesperado",
+            "consumo_alto"
+        ],
+        "diagnostico": "sensores_falla_004",
+        "prueba": "verificar_sensores_05",
+        "solucion": "aplicar_sensores_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R130",
+        "modulo": "sensores",
+        "condiciones": [
+            "respuesta_lenta_motor",
+            "ralenti_irregular",
+            "falla_en_aceleracion"
+        ],
+        "diagnostico": "sensores_falla_005",
+        "prueba": "verificar_sensores_06",
+        "solucion": "aplicar_sensores_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R131",
+        "modulo": "sensores",
+        "condiciones": [
+            "luz_check_engine",
+            "arranque_dificil",
+            "lectura_erratica_scaner"
+        ],
+        "diagnostico": "sensores_falla_006",
+        "prueba": "verificar_sensores_07",
+        "solucion": "aplicar_sensores_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R132",
+        "modulo": "sensores",
+        "condiciones": [
+            "consumo_alto",
+            "codigo_sensor_fuera_rango",
+            "respuesta_lenta_motor"
+        ],
+        "diagnostico": "sensores_falla_007",
+        "prueba": "verificar_sensores_08",
+        "solucion": "aplicar_sensores_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R133",
+        "modulo": "sensores",
+        "condiciones": [
+            "falla_en_aceleracion",
+            "modo_seguro_activado",
+            "luz_check_engine"
+        ],
+        "diagnostico": "sensores_falla_008",
+        "prueba": "verificar_sensores_09",
+        "solucion": "aplicar_sensores_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R134",
+        "modulo": "sensores",
+        "condiciones": [
+            "lectura_erratica_scaner",
+            "apagon_inesperado",
+            "consumo_alto"
+        ],
+        "diagnostico": "sensores_falla_009",
+        "prueba": "verificar_sensores_10",
+        "solucion": "aplicar_sensores_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R135",
+        "modulo": "sensores",
+        "condiciones": [
+            "respuesta_lenta_motor",
+            "ralenti_irregular",
+            "falla_en_aceleracion"
+        ],
+        "diagnostico": "sensores_falla_010",
+        "prueba": "verificar_sensores_11",
+        "solucion": "aplicar_sensores_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R136",
+        "modulo": "sensores",
+        "condiciones": [
+            "luz_check_engine",
+            "arranque_dificil",
+            "lectura_erratica_scaner"
+        ],
+        "diagnostico": "sensores_falla_011",
+        "prueba": "verificar_sensores_12",
+        "solucion": "aplicar_sensores_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R137",
+        "modulo": "sensores",
+        "condiciones": [
+            "consumo_alto",
+            "codigo_sensor_fuera_rango",
+            "respuesta_lenta_motor"
+        ],
+        "diagnostico": "sensores_falla_012",
+        "prueba": "verificar_sensores_13",
+        "solucion": "aplicar_sensores_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R138",
+        "modulo": "sensores",
+        "condiciones": [
+            "falla_en_aceleracion",
+            "modo_seguro_activado",
+            "luz_check_engine"
+        ],
+        "diagnostico": "sensores_falla_013",
+        "prueba": "verificar_sensores_14",
+        "solucion": "aplicar_sensores_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R139",
+        "modulo": "sensores",
+        "condiciones": [
+            "lectura_erratica_scaner",
+            "apagon_inesperado",
+            "consumo_alto"
+        ],
+        "diagnostico": "sensores_falla_014",
+        "prueba": "verificar_sensores_15",
+        "solucion": "aplicar_sensores_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R140",
+        "modulo": "sensores",
+        "condiciones": [
+            "respuesta_lenta_motor",
+            "ralenti_irregular",
+            "falla_en_aceleracion"
+        ],
+        "diagnostico": "sensores_falla_015",
+        "prueba": "verificar_sensores_01",
+        "solucion": "aplicar_sensores_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R141",
+        "modulo": "sensores",
+        "condiciones": [
+            "luz_check_engine",
+            "arranque_dificil",
+            "lectura_erratica_scaner"
+        ],
+        "diagnostico": "sensores_falla_016",
+        "prueba": "verificar_sensores_02",
+        "solucion": "aplicar_sensores_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R142",
+        "modulo": "sensores",
+        "condiciones": [
+            "consumo_alto",
+            "codigo_sensor_fuera_rango",
+            "respuesta_lenta_motor"
+        ],
+        "diagnostico": "sensores_falla_017",
+        "prueba": "verificar_sensores_03",
+        "solucion": "aplicar_sensores_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R143",
+        "modulo": "sensores",
+        "condiciones": [
+            "falla_en_aceleracion",
+            "modo_seguro_activado",
+            "luz_check_engine"
+        ],
+        "diagnostico": "sensores_falla_018",
+        "prueba": "verificar_sensores_04",
+        "solucion": "aplicar_sensores_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R144",
+        "modulo": "sensores",
+        "condiciones": [
+            "lectura_erratica_scaner",
+            "apagon_inesperado",
+            "consumo_alto"
+        ],
+        "diagnostico": "sensores_falla_019",
+        "prueba": "verificar_sensores_05",
+        "solucion": "aplicar_sensores_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R145",
+        "modulo": "sensores",
+        "condiciones": [
+            "respuesta_lenta_motor",
+            "ralenti_irregular",
+            "falla_en_aceleracion"
+        ],
+        "diagnostico": "sensores_falla_020",
+        "prueba": "verificar_sensores_06",
+        "solucion": "aplicar_sensores_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R146",
+        "modulo": "transmision",
+        "condiciones": [
+            "cambio_brusco",
+            "retardo_en_acople",
+            "olor_aceite_quemado"
+        ],
+        "diagnostico": "transmision_falla_001",
+        "prueba": "verificar_transmision_02",
+        "solucion": "aplicar_transmision_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R147",
+        "modulo": "transmision",
+        "condiciones": [
+            "golpe_al_cambiar",
+            "fuga_aceite_transmision",
+            "vibracion_en_marcha"
+        ],
+        "diagnostico": "transmision_falla_002",
+        "prueba": "verificar_transmision_03",
+        "solucion": "aplicar_transmision_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R148",
+        "modulo": "transmision",
+        "condiciones": [
+            "ruido_transmision",
+            "no_entra_reversa",
+            "cambio_brusco"
+        ],
+        "diagnostico": "transmision_falla_003",
+        "prueba": "verificar_transmision_04",
+        "solucion": "aplicar_transmision_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R149",
+        "modulo": "transmision",
+        "condiciones": [
+            "olor_aceite_quemado",
+            "testigo_transmision_encendido",
+            "golpe_al_cambiar"
+        ],
+        "diagnostico": "transmision_falla_004",
+        "prueba": "verificar_transmision_05",
+        "solucion": "aplicar_transmision_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R150",
+        "modulo": "transmision",
+        "condiciones": [
+            "vibracion_en_marcha",
+            "deslizamiento_marcha",
+            "ruido_transmision"
+        ],
+        "diagnostico": "transmision_falla_005",
+        "prueba": "verificar_transmision_06",
+        "solucion": "aplicar_transmision_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R151",
+        "modulo": "transmision",
+        "condiciones": [
+            "cambio_brusco",
+            "retardo_en_acople",
+            "olor_aceite_quemado"
+        ],
+        "diagnostico": "transmision_falla_006",
+        "prueba": "verificar_transmision_07",
+        "solucion": "aplicar_transmision_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R152",
+        "modulo": "transmision",
+        "condiciones": [
+            "golpe_al_cambiar",
+            "fuga_aceite_transmision",
+            "vibracion_en_marcha"
+        ],
+        "diagnostico": "transmision_falla_007",
+        "prueba": "verificar_transmision_08",
+        "solucion": "aplicar_transmision_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R153",
+        "modulo": "transmision",
+        "condiciones": [
+            "ruido_transmision",
+            "no_entra_reversa",
+            "cambio_brusco"
+        ],
+        "diagnostico": "transmision_falla_008",
+        "prueba": "verificar_transmision_09",
+        "solucion": "aplicar_transmision_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R154",
+        "modulo": "transmision",
+        "condiciones": [
+            "olor_aceite_quemado",
+            "testigo_transmision_encendido",
+            "golpe_al_cambiar"
+        ],
+        "diagnostico": "transmision_falla_009",
+        "prueba": "verificar_transmision_10",
+        "solucion": "aplicar_transmision_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R155",
+        "modulo": "transmision",
+        "condiciones": [
+            "vibracion_en_marcha",
+            "deslizamiento_marcha",
+            "ruido_transmision"
+        ],
+        "diagnostico": "transmision_falla_010",
+        "prueba": "verificar_transmision_11",
+        "solucion": "aplicar_transmision_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R156",
+        "modulo": "transmision",
+        "condiciones": [
+            "cambio_brusco",
+            "retardo_en_acople",
+            "olor_aceite_quemado"
+        ],
+        "diagnostico": "transmision_falla_011",
+        "prueba": "verificar_transmision_12",
+        "solucion": "aplicar_transmision_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R157",
+        "modulo": "transmision",
+        "condiciones": [
+            "golpe_al_cambiar",
+            "fuga_aceite_transmision",
+            "vibracion_en_marcha"
+        ],
+        "diagnostico": "transmision_falla_012",
+        "prueba": "verificar_transmision_13",
+        "solucion": "aplicar_transmision_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R158",
+        "modulo": "transmision",
+        "condiciones": [
+            "ruido_transmision",
+            "no_entra_reversa",
+            "cambio_brusco"
+        ],
+        "diagnostico": "transmision_falla_013",
+        "prueba": "verificar_transmision_14",
+        "solucion": "aplicar_transmision_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R159",
+        "modulo": "transmision",
+        "condiciones": [
+            "olor_aceite_quemado",
+            "testigo_transmision_encendido",
+            "golpe_al_cambiar"
+        ],
+        "diagnostico": "transmision_falla_014",
+        "prueba": "verificar_transmision_15",
+        "solucion": "aplicar_transmision_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R160",
+        "modulo": "transmision",
+        "condiciones": [
+            "vibracion_en_marcha",
+            "deslizamiento_marcha",
+            "ruido_transmision"
+        ],
+        "diagnostico": "transmision_falla_015",
+        "prueba": "verificar_transmision_01",
+        "solucion": "aplicar_transmision_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R161",
+        "modulo": "transmision",
+        "condiciones": [
+            "cambio_brusco",
+            "retardo_en_acople",
+            "olor_aceite_quemado"
+        ],
+        "diagnostico": "transmision_falla_016",
+        "prueba": "verificar_transmision_02",
+        "solucion": "aplicar_transmision_solucion_02",
+        "prioridad": 7
+    },
+    {
+        "id": "R162",
+        "modulo": "transmision",
+        "condiciones": [
+            "golpe_al_cambiar",
+            "fuga_aceite_transmision",
+            "vibracion_en_marcha"
+        ],
+        "diagnostico": "transmision_falla_017",
+        "prueba": "verificar_transmision_03",
+        "solucion": "aplicar_transmision_solucion_03",
+        "prioridad": 8
+    },
+    {
+        "id": "R163",
+        "modulo": "transmision",
+        "condiciones": [
+            "ruido_transmision",
+            "no_entra_reversa",
+            "cambio_brusco"
+        ],
+        "diagnostico": "transmision_falla_018",
+        "prueba": "verificar_transmision_04",
+        "solucion": "aplicar_transmision_solucion_04",
+        "prioridad": 9
+    },
+    {
+        "id": "R164",
+        "modulo": "transmision",
+        "condiciones": [
+            "olor_aceite_quemado",
+            "testigo_transmision_encendido",
+            "golpe_al_cambiar"
+        ],
+        "diagnostico": "transmision_falla_019",
+        "prueba": "verificar_transmision_05",
+        "solucion": "aplicar_transmision_solucion_05",
+        "prioridad": 10
+    },
+    {
+        "id": "R165",
+        "modulo": "transmision",
+        "condiciones": [
+            "vibracion_en_marcha",
+            "deslizamiento_marcha",
+            "ruido_transmision"
+        ],
+        "diagnostico": "transmision_falla_020",
+        "prueba": "verificar_transmision_06",
+        "solucion": "aplicar_transmision_solucion_06",
+        "prioridad": 1
+    },
+    {
+        "id": "R166",
+        "modulo": "direccion",
+        "condiciones": [
+            "direccion_dura",
+            "ruido_al_girar",
+            "retorno_lento_volante"
+        ],
+        "diagnostico": "direccion_falla_001",
+        "prueba": "verificar_direccion_02",
+        "solucion": "aplicar_direccion_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R167",
+        "modulo": "direccion",
+        "condiciones": [
+            "desviacion_recta",
+            "fuga_liquido_direccion",
+            "desgaste_irregular_llantas"
+        ],
+        "diagnostico": "direccion_falla_002",
+        "prueba": "verificar_direccion_03",
+        "solucion": "aplicar_direccion_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R168",
+        "modulo": "direccion",
+        "condiciones": [
+            "holgura_volante",
+            "chasquido_en_giro",
+            "direccion_dura"
+        ],
+        "diagnostico": "direccion_falla_003",
+        "prueba": "verificar_direccion_04",
+        "solucion": "aplicar_direccion_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R169",
+        "modulo": "direccion",
+        "condiciones": [
+            "retorno_lento_volante",
+            "asistencia_intermitente",
+            "desviacion_recta"
+        ],
+        "diagnostico": "direccion_falla_004",
+        "prueba": "verificar_direccion_05",
+        "solucion": "aplicar_direccion_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R170",
+        "modulo": "direccion",
+        "condiciones": [
+            "desgaste_irregular_llantas",
+            "vibracion_volante",
+            "holgura_volante"
+        ],
+        "diagnostico": "direccion_falla_005",
+        "prueba": "verificar_direccion_06",
+        "solucion": "aplicar_direccion_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R171",
+        "modulo": "direccion",
+        "condiciones": [
+            "direccion_dura",
+            "ruido_al_girar",
+            "retorno_lento_volante"
+        ],
+        "diagnostico": "direccion_falla_006",
+        "prueba": "verificar_direccion_07",
+        "solucion": "aplicar_direccion_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R172",
+        "modulo": "direccion",
+        "condiciones": [
+            "desviacion_recta",
+            "fuga_liquido_direccion",
+            "desgaste_irregular_llantas"
+        ],
+        "diagnostico": "direccion_falla_007",
+        "prueba": "verificar_direccion_08",
+        "solucion": "aplicar_direccion_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R173",
+        "modulo": "direccion",
+        "condiciones": [
+            "holgura_volante",
+            "chasquido_en_giro",
+            "direccion_dura"
+        ],
+        "diagnostico": "direccion_falla_008",
+        "prueba": "verificar_direccion_09",
+        "solucion": "aplicar_direccion_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R174",
+        "modulo": "direccion",
+        "condiciones": [
+            "retorno_lento_volante",
+            "asistencia_intermitente",
+            "desviacion_recta"
+        ],
+        "diagnostico": "direccion_falla_009",
+        "prueba": "verificar_direccion_10",
+        "solucion": "aplicar_direccion_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R175",
+        "modulo": "direccion",
+        "condiciones": [
+            "desgaste_irregular_llantas",
+            "vibracion_volante",
+            "holgura_volante"
+        ],
+        "diagnostico": "direccion_falla_010",
+        "prueba": "verificar_direccion_11",
+        "solucion": "aplicar_direccion_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R176",
+        "modulo": "direccion",
+        "condiciones": [
+            "direccion_dura",
+            "ruido_al_girar",
+            "retorno_lento_volante"
+        ],
+        "diagnostico": "direccion_falla_011",
+        "prueba": "verificar_direccion_12",
+        "solucion": "aplicar_direccion_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R177",
+        "modulo": "direccion",
+        "condiciones": [
+            "desviacion_recta",
+            "fuga_liquido_direccion",
+            "desgaste_irregular_llantas"
+        ],
+        "diagnostico": "direccion_falla_012",
+        "prueba": "verificar_direccion_13",
+        "solucion": "aplicar_direccion_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R178",
+        "modulo": "direccion",
+        "condiciones": [
+            "holgura_volante",
+            "chasquido_en_giro",
+            "direccion_dura"
+        ],
+        "diagnostico": "direccion_falla_013",
+        "prueba": "verificar_direccion_14",
+        "solucion": "aplicar_direccion_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R179",
+        "modulo": "direccion",
+        "condiciones": [
+            "retorno_lento_volante",
+            "asistencia_intermitente",
+            "desviacion_recta"
+        ],
+        "diagnostico": "direccion_falla_014",
+        "prueba": "verificar_direccion_15",
+        "solucion": "aplicar_direccion_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R180",
+        "modulo": "direccion",
+        "condiciones": [
+            "desgaste_irregular_llantas",
+            "vibracion_volante",
+            "holgura_volante"
+        ],
+        "diagnostico": "direccion_falla_015",
+        "prueba": "verificar_direccion_01",
+        "solucion": "aplicar_direccion_solucion_01",
+        "prioridad": 6
+    },
+    {
+        "id": "R181",
+        "modulo": "suspension",
+        "condiciones": [
+            "golpeteo_baches",
+            "ruido_amortiguador",
+            "desgaste_copas"
+        ],
+        "diagnostico": "suspension_falla_001",
+        "prueba": "verificar_suspension_02",
+        "solucion": "aplicar_suspension_solucion_02",
+        "prioridad": 2
+    },
+    {
+        "id": "R182",
+        "modulo": "suspension",
+        "condiciones": [
+            "vehiculo_inclinado",
+            "inestabilidad_curvas",
+            "crujido_delantero"
+        ],
+        "diagnostico": "suspension_falla_002",
+        "prueba": "verificar_suspension_03",
+        "solucion": "aplicar_suspension_solucion_03",
+        "prioridad": 3
+    },
+    {
+        "id": "R183",
+        "modulo": "suspension",
+        "condiciones": [
+            "altura_desigual",
+            "fuga_amortiguador",
+            "golpeteo_baches"
+        ],
+        "diagnostico": "suspension_falla_003",
+        "prueba": "verificar_suspension_04",
+        "solucion": "aplicar_suspension_solucion_04",
+        "prioridad": 4
+    },
+    {
+        "id": "R184",
+        "modulo": "suspension",
+        "condiciones": [
+            "desgaste_copas",
+            "balanceo_excesivo",
+            "vehiculo_inclinado"
+        ],
+        "diagnostico": "suspension_falla_004",
+        "prueba": "verificar_suspension_05",
+        "solucion": "aplicar_suspension_solucion_05",
+        "prioridad": 5
+    },
+    {
+        "id": "R185",
+        "modulo": "suspension",
+        "condiciones": [
+            "crujido_delantero",
+            "rebote_excesivo",
+            "altura_desigual"
+        ],
+        "diagnostico": "suspension_falla_005",
+        "prueba": "verificar_suspension_06",
+        "solucion": "aplicar_suspension_solucion_06",
+        "prioridad": 6
+    },
+    {
+        "id": "R186",
+        "modulo": "suspension",
+        "condiciones": [
+            "golpeteo_baches",
+            "ruido_amortiguador",
+            "desgaste_copas"
+        ],
+        "diagnostico": "suspension_falla_006",
+        "prueba": "verificar_suspension_07",
+        "solucion": "aplicar_suspension_solucion_07",
+        "prioridad": 7
+    },
+    {
+        "id": "R187",
+        "modulo": "suspension",
+        "condiciones": [
+            "vehiculo_inclinado",
+            "inestabilidad_curvas",
+            "crujido_delantero"
+        ],
+        "diagnostico": "suspension_falla_007",
+        "prueba": "verificar_suspension_08",
+        "solucion": "aplicar_suspension_solucion_08",
+        "prioridad": 8
+    },
+    {
+        "id": "R188",
+        "modulo": "suspension",
+        "condiciones": [
+            "altura_desigual",
+            "fuga_amortiguador",
+            "golpeteo_baches"
+        ],
+        "diagnostico": "suspension_falla_008",
+        "prueba": "verificar_suspension_09",
+        "solucion": "aplicar_suspension_solucion_09",
+        "prioridad": 9
+    },
+    {
+        "id": "R189",
+        "modulo": "suspension",
+        "condiciones": [
+            "desgaste_copas",
+            "balanceo_excesivo",
+            "vehiculo_inclinado"
+        ],
+        "diagnostico": "suspension_falla_009",
+        "prueba": "verificar_suspension_10",
+        "solucion": "aplicar_suspension_solucion_10",
+        "prioridad": 10
+    },
+    {
+        "id": "R190",
+        "modulo": "suspension",
+        "condiciones": [
+            "crujido_delantero",
+            "rebote_excesivo",
+            "altura_desigual"
+        ],
+        "diagnostico": "suspension_falla_010",
+        "prueba": "verificar_suspension_11",
+        "solucion": "aplicar_suspension_solucion_11",
+        "prioridad": 1
+    },
+    {
+        "id": "R191",
+        "modulo": "suspension",
+        "condiciones": [
+            "golpeteo_baches",
+            "ruido_amortiguador",
+            "desgaste_copas"
+        ],
+        "diagnostico": "suspension_falla_011",
+        "prueba": "verificar_suspension_12",
+        "solucion": "aplicar_suspension_solucion_12",
+        "prioridad": 2
+    },
+    {
+        "id": "R192",
+        "modulo": "suspension",
+        "condiciones": [
+            "vehiculo_inclinado",
+            "inestabilidad_curvas",
+            "crujido_delantero"
+        ],
+        "diagnostico": "suspension_falla_012",
+        "prueba": "verificar_suspension_13",
+        "solucion": "aplicar_suspension_solucion_13",
+        "prioridad": 3
+    },
+    {
+        "id": "R193",
+        "modulo": "suspension",
+        "condiciones": [
+            "altura_desigual",
+            "fuga_amortiguador",
+            "golpeteo_baches"
+        ],
+        "diagnostico": "suspension_falla_013",
+        "prueba": "verificar_suspension_14",
+        "solucion": "aplicar_suspension_solucion_14",
+        "prioridad": 4
+    },
+    {
+        "id": "R194",
+        "modulo": "suspension",
+        "condiciones": [
+            "desgaste_copas",
+            "balanceo_excesivo",
+            "vehiculo_inclinado"
+        ],
+        "diagnostico": "suspension_falla_014",
+        "prueba": "verificar_suspension_15",
+        "solucion": "aplicar_suspension_solucion_15",
+        "prioridad": 5
+    },
+    {
+        "id": "R195",
+        "modulo": "suspension",
+        "condiciones": [
+            "crujido_delantero",
+            "rebote_excesivo",
+            "altura_desigual"
+        ],
+        "diagnostico": "suspension_falla_015",
+        "prueba": "verificar_suspension_01",
+        "solucion": "aplicar_suspension_solucion_01",
+        "prioridad": 6
     }
 ]
