@@ -1,0 +1,41 @@
+[
+    {
+        "id": "R001",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "tablero_debil",
+            "click_al_girar_llave"
+        ],
+        "diagnostico": "bateria_descargada",
+        "prueba": "medir_voltaje_bateria",
+        "solucion": "cargar_o_cambiar_bateria",
+        "prioridad": 10
+    },
+
+    {
+        "id": "R002",
+        "modulo": "arranque",
+        "condiciones": [
+            "no_enciende",
+            "sin_luces_tablero"
+        ],
+        "diagnostico": "fusible_principal_quemado",
+        "prueba": "revisar_fusibles",
+        "solucion": "reemplazar_fusible",
+        "prioridad": 9
+    },
+
+    {
+        "id": "R003",
+        "modulo": "motor",
+        "condiciones": [
+            "humo_blanco",
+            "temperatura_alta"
+        ],
+        "diagnostico": "empaque_cabeza_danado",
+        "prueba": "prueba_compresion",
+        "solucion": "reemplazar_empaque",
+        "prioridad": 10
+    }
+]
