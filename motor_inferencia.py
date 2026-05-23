@@ -1,7 +1,7 @@
 from cargar_reglas import cargar_reglas
 
 reglas = cargar_reglas()
-
+print(f"Reglas cargadas: {len(reglas)}")
 
 def diagnosticar(sintomas_usuario):
 

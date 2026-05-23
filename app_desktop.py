@@ -2,7 +2,11 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 from catalogo import CATEGORIAS_BASE, obtener_catalogo_sintomas
-from diagnostico import diagnosticar
+from diagnostico import (
+    PROBABLE_THRESHOLD_DEFAULT,
+    POSSIBLE_THRESHOLD_DEFAULT,
+    diagnosticar_probables_posibles,
+)
 
 
 class AutoExpertDesktopApp(tk.Tk):
@@ -28,8 +32,14 @@ class AutoExpertDesktopApp(tk.Tk):
         self.categoria_actual = tk.StringVar(
             value=self.categorias[0] if self.categorias else "otros"
         )
+
         self.top_n = tk.IntVar(value=5)
-        self.umbral_match = tk.DoubleVar(value=0.5)
+
+        # Este umbral ahora representa el mínimo para "posibles"
+        self.umbral_posible = tk.DoubleVar(value=POSSIBLE_THRESHOLD_DEFAULT)
+
+        self.umbral_probable = tk.DoubleVar(value=PROBABLE_THRESHOLD_DEFAULT)
+
         self.total_seleccionados = tk.StringVar(value="Seleccionados: 0")
 
         self._crear_interfaz()
@@ -59,38 +69,39 @@ class AutoExpertDesktopApp(tk.Tk):
             textvariable=self.top_n,
         ).pack(side="left", padx=(6, 16))
 
-        ttk.Label(frame_superior, text="Match minimo (0-1):").pack(side="left")
+        ttk.Label(frame_superior, text="Umbral probable (0-1):").pack(side="left")
         ttk.Spinbox(
             frame_superior,
             from_=0.1,
             to=1.0,
-            increment=0.1,
-            width=5,
-            textvariable=self.umbral_match,
+            increment=0.05,
+            width=6,
+            textvariable=self.umbral_probable,
         ).pack(side="left", padx=(6, 16))
 
-        ttk.Label(
+        ttk.Label(frame_superior, text="Umbral posible (0-1):").pack(side="left")
+        ttk.Spinbox(
             frame_superior,
-            textvariable=self.total_seleccionados,
-        ).pack(side="left", padx=(16, 0))
+            from_=0.1,
+            to=1.0,
+            increment=0.05,
+            width=6,
+            textvariable=self.umbral_posible,
+        ).pack(side="left", padx=(6, 16))
+
+        ttk.Label(frame_superior, textvariable=self.total_seleccionados).pack(
+            side="left", padx=(16, 0)
+        )
 
         frame_central = ttk.Frame(self, padding=(10, 0, 10, 10))
         frame_central.pack(fill="both", expand=True)
         frame_central.columnconfigure(0, weight=1)
         frame_central.columnconfigure(1, weight=2)
-        frame_central.rowconfigure(0, weight=1)
+        frame_central.rowconfigure(0, weight=1)  # contenido principal
+        frame_central.rowconfigure(1, weight=0)  # botones
 
-        sintomas_labelframe = ttk.LabelFrame(
-            frame_central,
-            text="Sintomas",
-            padding=8,
-        )
-        sintomas_labelframe.grid(
-            row=0,
-            column=0,
-            sticky="nsew",
-            padx=(0, 8),
-        )
+        sintomas_labelframe = ttk.LabelFrame(frame_central, text="Sintomas", padding=8)
+        sintomas_labelframe.grid(row=0, column=0, sticky="nsew", padx=(0, 8))
         sintomas_labelframe.rowconfigure(0, weight=1)
         sintomas_labelframe.columnconfigure(0, weight=1)
 
@@ -109,50 +120,52 @@ class AutoExpertDesktopApp(tk.Tk):
             ),
         )
 
-        self.canvas_sintomas.create_window(
-            (0, 0),
-            window=self.frame_checkboxes,
-            anchor="nw",
-        )
+        self.canvas_sintomas.create_window((0, 0), window=self.frame_checkboxes, anchor="nw")
         self.canvas_sintomas.configure(yscrollcommand=self.scrollbar_sintomas.set)
 
         self.canvas_sintomas.grid(row=0, column=0, sticky="nsew")
         self.scrollbar_sintomas.grid(row=0, column=1, sticky="ns")
 
-        resultado_labelframe = ttk.LabelFrame(
-            frame_central,
-            text="Resultados",
-            padding=8,
-        )
-        resultado_labelframe.grid(
-            row=0,
-            column=1,
-            sticky="nsew",
-        )
-        resultado_labelframe.rowconfigure(0, weight=1)
-        resultado_labelframe.columnconfigure(0, weight=1)
+        resultados_labelframe = ttk.LabelFrame(frame_central, text="Resultados", padding=8)
+        resultados_labelframe.grid(row=0, column=1, sticky="nsew")
+        resultados_labelframe.rowconfigure(0, weight=1)
+        resultados_labelframe.columnconfigure(0, weight=1)
 
-        self.texto_resultados = tk.Text(
-            resultado_labelframe,
-            wrap="word",
-            state="disabled",
-        )
-        scrollbar_resultados = ttk.Scrollbar(
-            resultado_labelframe,
-            orient="vertical",
-            command=self.texto_resultados.yview,
-        )
-        self.texto_resultados.configure(yscrollcommand=scrollbar_resultados.set)
-        self.texto_resultados.grid(row=0, column=0, sticky="nsew")
-        scrollbar_resultados.grid(row=0, column=1, sticky="ns")
+        # Dividir resultados en Probables / Posibles
+        paned = ttk.PanedWindow(resultados_labelframe, orient="vertical")
+        paned.grid(row=0, column=0, sticky="nsew")
+        resultados_labelframe.rowconfigure(0, weight=1)
 
-        frame_inferior = ttk.Frame(self, padding=(10, 0, 10, 10))
-        frame_inferior.pack(fill="x")
-        ttk.Button(
-            frame_inferior,
-            text="Diagnosticar",
-            command=self._diagnosticar,
-        ).pack(side="right")
+        frame_probables = ttk.LabelFrame(paned, text="Diagnosticos probables", padding=6)
+        frame_posibles = ttk.LabelFrame(paned, text="Diagnosticos posibles", padding=6)
+
+        paned.add(frame_probables, weight=1)
+        paned.add(frame_posibles, weight=1)
+
+        frame_probables.rowconfigure(0, weight=1)
+        frame_probables.columnconfigure(0, weight=1)
+        frame_posibles.rowconfigure(0, weight=1)
+        frame_posibles.columnconfigure(0, weight=1)
+
+        self.texto_probables = tk.Text(frame_probables, wrap="word", state="disabled")
+        sb_prob = ttk.Scrollbar(frame_probables, orient="vertical", command=self.texto_probables.yview)
+        self.texto_probables.configure(yscrollcommand=sb_prob.set)
+        self.texto_probables.grid(row=0, column=0, sticky="nsew")
+        sb_prob.grid(row=0, column=1, sticky="ns")
+
+        self.texto_posibles = tk.Text(frame_posibles, wrap="word", state="disabled")
+        sb_pos = ttk.Scrollbar(frame_posibles, orient="vertical", command=self.texto_posibles.yview)
+        self.texto_posibles.configure(yscrollcommand=sb_pos.set)
+        self.texto_posibles.grid(row=0, column=0, sticky="nsew")
+        sb_pos.grid(row=0, column=1, sticky="ns")
+
+        frame_inferior = ttk.Frame(frame_central, padding=(0, 8, 0, 0))
+        frame_inferior.grid(row=1, column=0, columnspan=2, sticky="ew")
+        frame_inferior.columnconfigure(0, weight=1)
+        frame_inferior.columnconfigure(1, weight=1)
+
+        ttk.Button(frame_inferior, text="Limpiar", command=self._limpiar).grid(row=0, column=0, sticky="w")
+        ttk.Button(frame_inferior, text="Diagnosticar", command=self._diagnosticar).grid(row=0, column=1, sticky="e")
 
     def _cambiar_categoria(self, _event=None):
         self._renderizar_sintomas()
@@ -163,9 +176,7 @@ class AutoExpertDesktopApp(tk.Tk):
         else:
             self.sintomas_seleccionados.discard(sintoma)
 
-        self.total_seleccionados.set(
-            f"Seleccionados: {len(self.sintomas_seleccionados)}"
-        )
+        self.total_seleccionados.set(f"Seleccionados: {len(self.sintomas_seleccionados)}")
 
     def _renderizar_sintomas(self):
         for widget in self.frame_checkboxes.winfo_children():
@@ -176,10 +187,7 @@ class AutoExpertDesktopApp(tk.Tk):
         self.variables_categoria = {}
 
         if not sintomas_categoria:
-            ttk.Label(
-                self.frame_checkboxes,
-                text="No hay sintomas para esta categoria.",
-            ).pack(anchor="w")
+            ttk.Label(self.frame_checkboxes, text="No hay sintomas para esta categoria.").pack(anchor="w")
             return
 
         for sintoma in sintomas_categoria:
@@ -192,14 +200,33 @@ class AutoExpertDesktopApp(tk.Tk):
                 command=lambda s=sintoma, v=variable: self._alternar_sintoma(s, v),
             ).pack(anchor="w", pady=1)
 
+    def _limpiar_resultados(self):
+        for widget in (self.texto_probables, self.texto_posibles):
+            widget.configure(state="normal")
+            widget.delete("1.0", "end")
+            widget.configure(state="disabled")
+
+    def _limpiar(self):
+        # 1) limpiar selección lógica (esto borra TODO, incluso de otras categorías)
+        self.sintomas_seleccionados.clear()
+        self.total_seleccionados.set("Seleccionados: 0")
+
+        # 2) re-renderiza checkboxes para que se desmarquen en la categoría visible
+        self._renderizar_sintomas()
+
+        # 3) limpiar resultados
+        self._limpiar_resultados()
+
     def _diagnosticar(self):
         try:
-            umbral = float(self.umbral_match.get())
+            probable = float(self.umbral_probable.get())
+            posible = float(self.umbral_posible.get())
         except (TypeError, ValueError):
-            messagebox.showerror("Error", "El umbral de match debe ser numerico.")
+            messagebox.showerror("Error", "Los umbrales deben ser numericos.")
             return
 
-        umbral = max(0.0, min(1.0, umbral))
+        probable = max(0.0, min(1.0, probable))
+        posible = max(0.0, min(1.0, posible))
 
         try:
             top_n = int(self.top_n.get())
@@ -210,36 +237,35 @@ class AutoExpertDesktopApp(tk.Tk):
         top_n = max(5, min(10, top_n))
 
         try:
-            resultados = diagnosticar(
+            probables, posibles = diagnosticar_probables_posibles(
                 sintomas_usuario=sorted(self.sintomas_seleccionados),
-                min_match=umbral,
+                probable_threshold=probable,
+                possible_threshold=posible,
                 top_n=top_n,
             )
         except (FileNotFoundError, ValueError) as error:
             messagebox.showerror("Error de diagnostico", str(error))
             return
 
-        self._mostrar_resultados(resultados)
+        self._mostrar_resultados(probables, posibles, probable_threshold=probable, possible_threshold=posible)
 
-    def _mostrar_resultados(self, resultados):
-        self.texto_resultados.configure(state="normal")
-        self.texto_resultados.delete("1.0", "end")
+    def _mostrar_en_texto(self, widget, resultados, titulo_vacio):
+        widget.configure(state="normal")
+        widget.delete("1.0", "end")
 
         if not resultados:
-            self.texto_resultados.insert(
-                "end",
-                "No se encontraron diagnosticos con el umbral seleccionado.\n",
-            )
-            self.texto_resultados.configure(state="disabled")
+            widget.insert("end", titulo_vacio + "\n")
+            widget.configure(state="disabled")
             return
 
         for posicion, resultado in enumerate(resultados, start=1):
-            self.texto_resultados.insert("end", f"{posicion}. {resultado['diagnostico']}\n")
-            self.texto_resultados.insert(
+            ratio_display = resultado.get("match_ratio_display", round(resultado["match_ratio"], 4))
+            widget.insert("end", f"{posicion}. {resultado['diagnostico']}\n")
+            widget.insert(
                 "end",
                 (
                     f"   modulo: {resultado['modulo']}\n"
-                    f"   match: {resultado['match']} ({resultado['match_ratio'] * 100:.1f}%)\n"
+                    f"   match: {resultado['match']} ({ratio_display * 100:.1f}%)\n"
                     f"   score: {resultado['score']} | prioridad: {resultado['prioridad']}\n"
                     f"   prueba: {resultado['prueba']}\n"
                     f"   solucion: {resultado['solucion']}\n"
@@ -249,16 +275,22 @@ class AutoExpertDesktopApp(tk.Tk):
             matched = ", ".join(resultado["condiciones_matched"]) or "-"
             missing = ", ".join(resultado["condiciones_missing"]) or "-"
 
-            self.texto_resultados.insert(
-                "end",
-                f"   condiciones_matched: {matched}\n",
-            )
-            self.texto_resultados.insert(
-                "end",
-                f"   condiciones_missing: {missing}\n\n",
-            )
+            widget.insert("end", f"   condiciones_matched: {matched}\n")
+            widget.insert("end", f"   condiciones_missing: {missing}\n\n")
 
-        self.texto_resultados.configure(state="disabled")
+        widget.configure(state="disabled")
+
+    def _mostrar_resultados(self, probables, posibles, probable_threshold, possible_threshold):
+        self._mostrar_en_texto(
+            self.texto_probables,
+            probables,
+            f"No hay diagnosticos probables (>= {probable_threshold:.2f}).",
+        )
+        self._mostrar_en_texto(
+            self.texto_posibles,
+            posibles,
+            f"No hay diagnosticos posibles (>= {possible_threshold:.2f} y < {probable_threshold:.2f}).",
+        )
 
 
 if __name__ == "__main__":

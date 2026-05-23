@@ -44,9 +44,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_001",
-        "prueba": "verificar_arranque_02",
-        "solucion": "aplicar_arranque_solucion_02",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 2
     },
     {
@@ -57,9 +57,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_002",
-        "prueba": "verificar_arranque_03",
-        "solucion": "aplicar_arranque_solucion_03",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 3
     },
     {
@@ -70,9 +70,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_003",
-        "prueba": "verificar_arranque_04",
-        "solucion": "aplicar_arranque_solucion_04",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 4
     },
     {
@@ -83,9 +83,9 @@
             "olor_a_quemado_en_arranque",
             "click_al_girar_llave"
         ],
-        "diagnostico": "arranque_falla_004",
-        "prueba": "verificar_arranque_05",
-        "solucion": "aplicar_arranque_solucion_05",
+        "diagnostico": "solenoide_de_arranque_quemado",
+        "prueba": "inspeccionar_solenoide_y_contactos_internos",
+        "solucion": "reemplazar_solenoide_o_conjunto_de_arranque",
         "prioridad": 5
     },
     {
@@ -96,9 +96,9 @@
             "arranque_lento",
             "motor_no_gira"
         ],
-        "diagnostico": "arranque_falla_005",
-        "prueba": "verificar_arranque_06",
-        "solucion": "aplicar_arranque_solucion_06",
+        "diagnostico": "escobillas_motor_arranque_desgastadas",
+        "prueba": "desmontar_y_medir_escobillas_del_motor",
+        "solucion": "reemplazar_escobillas_del_motor_de_arranque",
         "prioridad": 6
     },
     {
@@ -109,9 +109,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_006",
-        "prueba": "verificar_arranque_07",
-        "solucion": "aplicar_arranque_solucion_07",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 7
     },
     {
@@ -122,9 +122,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_007",
-        "prueba": "verificar_arranque_08",
-        "solucion": "aplicar_arranque_solucion_08",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 8
     },
     {
@@ -135,9 +135,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_008",
-        "prueba": "verificar_arranque_09",
-        "solucion": "aplicar_arranque_solucion_09",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 9
     },
     {
@@ -148,9 +148,9 @@
             "olor_a_quemado_en_arranque",
             "click_al_girar_llave"
         ],
-        "diagnostico": "arranque_falla_009",
-        "prueba": "verificar_arranque_10",
-        "solucion": "aplicar_arranque_solucion_10",
+        "diagnostico": "solenoide_de_arranque_quemado",
+        "prueba": "inspeccionar_solenoide_y_contactos_internos",
+        "solucion": "reemplazar_solenoide_o_conjunto_de_arranque",
         "prioridad": 10
     },
     {
@@ -161,9 +161,9 @@
             "arranque_lento",
             "motor_no_gira"
         ],
-        "diagnostico": "arranque_falla_010",
-        "prueba": "verificar_arranque_11",
-        "solucion": "aplicar_arranque_solucion_11",
+        "diagnostico": "escobillas_motor_arranque_desgastadas",
+        "prueba": "desmontar_y_medir_escobillas_del_motor",
+        "solucion": "reemplazar_escobillas_del_motor_de_arranque",
         "prioridad": 1
     },
     {
@@ -174,9 +174,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_011",
-        "prueba": "verificar_arranque_12",
-        "solucion": "aplicar_arranque_solucion_12",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 2
     },
     {
@@ -187,9 +187,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_012",
-        "prueba": "verificar_arranque_13",
-        "solucion": "aplicar_arranque_solucion_13",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 3
     },
     {
@@ -200,9 +200,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_013",
-        "prueba": "verificar_arranque_14",
-        "solucion": "aplicar_arranque_solucion_14",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 4
     },
     {
@@ -213,9 +213,9 @@
             "olor_a_quemado_en_arranque",
             "click_al_girar_llave"
         ],
-        "diagnostico": "arranque_falla_014",
-        "prueba": "verificar_arranque_15",
-        "solucion": "aplicar_arranque_solucion_15",
+        "diagnostico": "solenoide_de_arranque_quemado",
+        "prueba": "inspeccionar_solenoide_y_contactos_internos",
+        "solucion": "reemplazar_solenoide_o_conjunto_de_arranque",
         "prioridad": 5
     },
     {
@@ -226,9 +226,9 @@
             "arranque_lento",
             "motor_no_gira"
         ],
-        "diagnostico": "arranque_falla_015",
-        "prueba": "verificar_arranque_01",
-        "solucion": "aplicar_arranque_solucion_01",
+        "diagnostico": "escobillas_motor_arranque_desgastadas",
+        "prueba": "desmontar_y_medir_escobillas_del_motor",
+        "solucion": "reemplazar_escobillas_del_motor_de_arranque",
         "prioridad": 6
     },
     {
@@ -239,9 +239,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_016",
-        "prueba": "verificar_arranque_02",
-        "solucion": "aplicar_arranque_solucion_02",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 7
     },
     {
@@ -252,9 +252,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_017",
-        "prueba": "verificar_arranque_03",
-        "solucion": "aplicar_arranque_solucion_03",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 8
     },
     {
@@ -265,9 +265,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_018",
-        "prueba": "verificar_arranque_04",
-        "solucion": "aplicar_arranque_solucion_04",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 9
     },
     {
@@ -278,9 +278,9 @@
             "olor_a_quemado_en_arranque",
             "click_al_girar_llave"
         ],
-        "diagnostico": "arranque_falla_019",
-        "prueba": "verificar_arranque_05",
-        "solucion": "aplicar_arranque_solucion_05",
+        "diagnostico": "solenoide_de_arranque_quemado",
+        "prueba": "inspeccionar_solenoide_y_contactos_internos",
+        "solucion": "reemplazar_solenoide_o_conjunto_de_arranque",
         "prioridad": 10
     },
     {
@@ -291,9 +291,9 @@
             "arranque_lento",
             "motor_no_gira"
         ],
-        "diagnostico": "arranque_falla_020",
-        "prueba": "verificar_arranque_06",
-        "solucion": "aplicar_arranque_solucion_06",
+        "diagnostico": "escobillas_motor_arranque_desgastadas",
+        "prueba": "desmontar_y_medir_escobillas_del_motor",
+        "solucion": "reemplazar_escobillas_del_motor_de_arranque",
         "prioridad": 1
     },
     {
@@ -304,9 +304,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_021",
-        "prueba": "verificar_arranque_07",
-        "solucion": "aplicar_arranque_solucion_07",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 2
     },
     {
@@ -317,9 +317,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_022",
-        "prueba": "verificar_arranque_08",
-        "solucion": "aplicar_arranque_solucion_08",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 3
     },
     {
@@ -330,9 +330,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_023",
-        "prueba": "verificar_arranque_09",
-        "solucion": "aplicar_arranque_solucion_09",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 4
     },
     {
@@ -343,9 +343,9 @@
             "olor_a_quemado_en_arranque",
             "click_al_girar_llave"
         ],
-        "diagnostico": "arranque_falla_024",
-        "prueba": "verificar_arranque_10",
-        "solucion": "aplicar_arranque_solucion_10",
+        "diagnostico": "solenoide_de_arranque_quemado",
+        "prueba": "inspeccionar_solenoide_y_contactos_internos",
+        "solucion": "reemplazar_solenoide_o_conjunto_de_arranque",
         "prioridad": 5
     },
     {
@@ -356,9 +356,9 @@
             "arranque_lento",
             "motor_no_gira"
         ],
-        "diagnostico": "arranque_falla_025",
-        "prueba": "verificar_arranque_11",
-        "solucion": "aplicar_arranque_solucion_11",
+        "diagnostico": "escobillas_motor_arranque_desgastadas",
+        "prueba": "desmontar_y_medir_escobillas_del_motor",
+        "solucion": "reemplazar_escobillas_del_motor_de_arranque",
         "prioridad": 6
     },
     {
@@ -369,9 +369,9 @@
             "tablero_debil",
             "rele_arranque_sin_respuesta"
         ],
-        "diagnostico": "arranque_falla_026",
-        "prueba": "verificar_arranque_12",
-        "solucion": "aplicar_arranque_solucion_12",
+        "diagnostico": "rele_de_arranque_defectuoso",
+        "prueba": "verificar_continuidad_rele_y_bobina",
+        "solucion": "reemplazar_rele_de_arranque",
         "prioridad": 7
     },
     {
@@ -382,9 +382,9 @@
             "luces_tenue",
             "arranque_intermitente"
         ],
-        "diagnostico": "arranque_falla_027",
-        "prueba": "verificar_arranque_13",
-        "solucion": "aplicar_arranque_solucion_13",
+        "diagnostico": "conexiones_bateria_oxidadas",
+        "prueba": "medir_caida_de_voltaje_en_cables",
+        "solucion": "limpiar_y_apretar_terminales_de_bateria",
         "prioridad": 8
     },
     {
@@ -395,9 +395,9 @@
             "sin_corriente_en_borne",
             "no_enciende"
         ],
-        "diagnostico": "arranque_falla_028",
-        "prueba": "verificar_arranque_14",
-        "solucion": "aplicar_arranque_solucion_14",
+        "diagnostico": "motor_de_arranque_averiado",
+        "prueba": "probar_motor_de_arranque_con_voltaje_directo",
+        "solucion": "reemplazar_motor_de_arranque",
         "prioridad": 9
     },
     {
@@ -408,9 +408,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_001",
-        "prueba": "verificar_motor_02",
-        "solucion": "aplicar_motor_solucion_02",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 2
     },
     {
@@ -421,9 +421,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_002",
-        "prueba": "verificar_motor_03",
-        "solucion": "aplicar_motor_solucion_03",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 3
     },
     {
@@ -434,9 +434,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_003",
-        "prueba": "verificar_motor_04",
-        "solucion": "aplicar_motor_solucion_04",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 4
     },
     {
@@ -447,9 +447,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_004",
-        "prueba": "verificar_motor_05",
-        "solucion": "aplicar_motor_solucion_05",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 5
     },
     {
@@ -460,9 +460,9 @@
             "vibracion_excesiva",
             "humo_azul"
         ],
-        "diagnostico": "motor_falla_005",
-        "prueba": "verificar_motor_06",
-        "solucion": "aplicar_motor_solucion_06",
+        "diagnostico": "sensor_maf_contaminado",
+        "prueba": "leer_datos_en_tiempo_real_del_sensor_maf",
+        "solucion": "limpiar_o_reemplazar_sensor_maf",
         "prioridad": 6
     },
     {
@@ -473,9 +473,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_006",
-        "prueba": "verificar_motor_07",
-        "solucion": "aplicar_motor_solucion_07",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 7
     },
     {
@@ -486,9 +486,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_007",
-        "prueba": "verificar_motor_08",
-        "solucion": "aplicar_motor_solucion_08",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 8
     },
     {
@@ -499,9 +499,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_008",
-        "prueba": "verificar_motor_09",
-        "solucion": "aplicar_motor_solucion_09",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 9
     },
     {
@@ -512,9 +512,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_009",
-        "prueba": "verificar_motor_10",
-        "solucion": "aplicar_motor_solucion_10",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 10
     },
     {
@@ -525,9 +525,9 @@
             "vibracion_excesiva",
             "humo_azul"
         ],
-        "diagnostico": "motor_falla_010",
-        "prueba": "verificar_motor_11",
-        "solucion": "aplicar_motor_solucion_11",
+        "diagnostico": "sensor_maf_contaminado",
+        "prueba": "leer_datos_en_tiempo_real_del_sensor_maf",
+        "solucion": "limpiar_o_reemplazar_sensor_maf",
         "prioridad": 1
     },
     {
@@ -538,9 +538,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_011",
-        "prueba": "verificar_motor_12",
-        "solucion": "aplicar_motor_solucion_12",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 2
     },
     {
@@ -551,9 +551,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_012",
-        "prueba": "verificar_motor_13",
-        "solucion": "aplicar_motor_solucion_13",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 3
     },
     {
@@ -564,9 +564,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_013",
-        "prueba": "verificar_motor_14",
-        "solucion": "aplicar_motor_solucion_14",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 4
     },
     {
@@ -577,9 +577,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_014",
-        "prueba": "verificar_motor_15",
-        "solucion": "aplicar_motor_solucion_15",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 5
     },
     {
@@ -590,9 +590,9 @@
             "vibracion_excesiva",
             "humo_azul"
         ],
-        "diagnostico": "motor_falla_015",
-        "prueba": "verificar_motor_01",
-        "solucion": "aplicar_motor_solucion_01",
+        "diagnostico": "sensor_maf_contaminado",
+        "prueba": "leer_datos_en_tiempo_real_del_sensor_maf",
+        "solucion": "limpiar_o_reemplazar_sensor_maf",
         "prioridad": 6
     },
     {
@@ -603,9 +603,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_016",
-        "prueba": "verificar_motor_02",
-        "solucion": "aplicar_motor_solucion_02",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 7
     },
     {
@@ -616,9 +616,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_017",
-        "prueba": "verificar_motor_03",
-        "solucion": "aplicar_motor_solucion_03",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 8
     },
     {
@@ -629,9 +629,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_018",
-        "prueba": "verificar_motor_04",
-        "solucion": "aplicar_motor_solucion_04",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 9
     },
     {
@@ -642,9 +642,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_019",
-        "prueba": "verificar_motor_05",
-        "solucion": "aplicar_motor_solucion_05",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 10
     },
     {
@@ -655,9 +655,9 @@
             "vibracion_excesiva",
             "humo_azul"
         ],
-        "diagnostico": "motor_falla_020",
-        "prueba": "verificar_motor_06",
-        "solucion": "aplicar_motor_solucion_06",
+        "diagnostico": "sensor_maf_contaminado",
+        "prueba": "leer_datos_en_tiempo_real_del_sensor_maf",
+        "solucion": "limpiar_o_reemplazar_sensor_maf",
         "prioridad": 1
     },
     {
@@ -668,9 +668,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_021",
-        "prueba": "verificar_motor_07",
-        "solucion": "aplicar_motor_solucion_07",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 2
     },
     {
@@ -681,9 +681,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_022",
-        "prueba": "verificar_motor_08",
-        "solucion": "aplicar_motor_solucion_08",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 3
     },
     {
@@ -694,9 +694,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_023",
-        "prueba": "verificar_motor_09",
-        "solucion": "aplicar_motor_solucion_09",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 4
     },
     {
@@ -707,9 +707,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_024",
-        "prueba": "verificar_motor_10",
-        "solucion": "aplicar_motor_solucion_10",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 5
     },
     {
@@ -720,9 +720,9 @@
             "vibracion_excesiva",
             "humo_azul"
         ],
-        "diagnostico": "motor_falla_025",
-        "prueba": "verificar_motor_11",
-        "solucion": "aplicar_motor_solucion_11",
+        "diagnostico": "sensor_maf_contaminado",
+        "prueba": "leer_datos_en_tiempo_real_del_sensor_maf",
+        "solucion": "limpiar_o_reemplazar_sensor_maf",
         "prioridad": 6
     },
     {
@@ -733,9 +733,9 @@
             "humo_negro",
             "fallo_encendido"
         ],
-        "diagnostico": "motor_falla_026",
-        "prueba": "verificar_motor_12",
-        "solucion": "aplicar_motor_solucion_12",
+        "diagnostico": "inyectores_sucios_o_taponados",
+        "prueba": "prueba_de_caudal_y_atomizacion_de_inyectores",
+        "solucion": "limpiar_o_reemplazar_inyectores",
         "prioridad": 7
     },
     {
@@ -746,9 +746,9 @@
             "consumo_aceite_alto",
             "tirones_al_acelerar"
         ],
-        "diagnostico": "motor_falla_027",
-        "prueba": "verificar_motor_13",
-        "solucion": "aplicar_motor_solucion_13",
+        "diagnostico": "anillos_de_piston_desgastados",
+        "prueba": "prueba_de_compresion_en_cilindros",
+        "solucion": "rectificar_cilindros_y_reemplazar_anillos",
         "prioridad": 8
     },
     {
@@ -759,9 +759,9 @@
             "cascabeleo_acelerar",
             "ralenti_inestable"
         ],
-        "diagnostico": "motor_falla_028",
-        "prueba": "verificar_motor_14",
-        "solucion": "aplicar_motor_solucion_14",
+        "diagnostico": "valvulas_de_admision_con_fugas",
+        "prueba": "prueba_de_fuga_en_cilindros_y_revision_valvulas",
+        "solucion": "ajustar_o_rectificar_asientos_de_valvulas",
         "prioridad": 9
     },
     {
@@ -772,9 +772,9 @@
             "detonacion_en_carga",
             "perdida_potencia"
         ],
-        "diagnostico": "motor_falla_029",
-        "prueba": "verificar_motor_15",
-        "solucion": "aplicar_motor_solucion_15",
+        "diagnostico": "bujias_desgastadas_y_cables_defectuosos",
+        "prueba": "medir_resistencia_cables_y_revision_bujias",
+        "solucion": "reemplazar_bujias_y_cables_de_encendido",
         "prioridad": 10
     },
     {
@@ -785,9 +785,9 @@
             "arranque_dificil_frio",
             "presion_combustible_baja"
         ],
-        "diagnostico": "combustible_falla_001",
-        "prueba": "verificar_combustible_02",
-        "solucion": "aplicar_combustible_solucion_02",
+        "diagnostico": "bomba_de_combustible_debil",
+        "prueba": "medir_presion_de_combustible_en_riel",
+        "solucion": "reemplazar_bomba_de_combustible",
         "prioridad": 2
     },
     {
@@ -798,9 +798,9 @@
             "bomba_ruidosa",
             "motor_se_apaga_en_marcha"
         ],
-        "diagnostico": "combustible_falla_002",
-        "prueba": "verificar_combustible_03",
-        "solucion": "aplicar_combustible_solucion_03",
+        "diagnostico": "filtro_de_combustible_obstruido",
+        "prueba": "medir_caida_de_presion_en_filtro",
+        "solucion": "reemplazar_filtro_de_combustible",
         "prioridad": 3
     },
     {
@@ -811,9 +811,9 @@
             "inyector_sucio",
             "consumo_combustible_alto"
         ],
-        "diagnostico": "combustible_falla_003",
-        "prueba": "verificar_combustible_04",
-        "solucion": "aplicar_combustible_solucion_04",
+        "diagnostico": "inyectores_sucios_con_goteo",
+        "prueba": "prueba_de_atomizacion_y_goteo_de_inyectores",
+        "solucion": "limpiar_inyectores_en_ultrasonido_o_reemplazar",
         "prioridad": 4
     },
     {
@@ -824,9 +824,9 @@
             "respuesta_lenta_acelerador",
             "falla_al_acelerar"
         ],
-        "diagnostico": "combustible_falla_004",
-        "prueba": "verificar_combustible_05",
-        "solucion": "aplicar_combustible_solucion_05",
+        "diagnostico": "sensor_de_presion_de_combustible_defectuoso",
+        "prueba": "verificar_señal_del_sensor_con_osciloscopio",
+        "solucion": "reemplazar_sensor_de_presion_de_combustible",
         "prioridad": 5
     },
     {
@@ -837,9 +837,9 @@
             "olor_gasolina",
             "arranque_dificil_caliente"
         ],
-        "diagnostico": "combustible_falla_005",
-        "prueba": "verificar_combustible_06",
-        "solucion": "aplicar_combustible_solucion_06",
+        "diagnostico": "vaporizacion_de_combustible_en_linea",
+        "prueba": "verificar_temperatura_de_lineas_de_combustible",
+        "solucion": "aislar_lineas_de_combustible_y_revisar_purga_de_vapor",
         "prioridad": 6
     },
     {
@@ -850,9 +850,9 @@
             "arranque_dificil_frio",
             "presion_combustible_baja"
         ],
-        "diagnostico": "combustible_falla_006",
-        "prueba": "verificar_combustible_07",
-        "solucion": "aplicar_combustible_solucion_07",
+        "diagnostico": "bomba_de_combustible_debil",
+        "prueba": "medir_presion_de_combustible_en_riel",
+        "solucion": "reemplazar_bomba_de_combustible",
         "prioridad": 7
     },
     {
@@ -863,9 +863,9 @@
             "bomba_ruidosa",
             "motor_se_apaga_en_marcha"
         ],
-        "diagnostico": "combustible_falla_007",
-        "prueba": "verificar_combustible_08",
-        "solucion": "aplicar_combustible_solucion_08",
+        "diagnostico": "filtro_de_combustible_obstruido",
+        "prueba": "medir_caida_de_presion_en_filtro",
+        "solucion": "reemplazar_filtro_de_combustible",
         "prioridad": 8
     },
     {
@@ -876,9 +876,9 @@
             "inyector_sucio",
             "consumo_combustible_alto"
         ],
-        "diagnostico": "combustible_falla_008",
-        "prueba": "verificar_combustible_09",
-        "solucion": "aplicar_combustible_solucion_09",
+        "diagnostico": "inyectores_sucios_con_goteo",
+        "prueba": "prueba_de_atomizacion_y_goteo_de_inyectores",
+        "solucion": "limpiar_inyectores_en_ultrasonido_o_reemplazar",
         "prioridad": 9
     },
     {
@@ -889,9 +889,9 @@
             "respuesta_lenta_acelerador",
             "falla_al_acelerar"
         ],
-        "diagnostico": "combustible_falla_009",
-        "prueba": "verificar_combustible_10",
-        "solucion": "aplicar_combustible_solucion_10",
+        "diagnostico": "sensor_de_presion_de_combustible_defectuoso",
+        "prueba": "verificar_señal_del_sensor_con_osciloscopio",
+        "solucion": "reemplazar_sensor_de_presion_de_combustible",
         "prioridad": 10
     },
     {
@@ -902,9 +902,9 @@
             "olor_gasolina",
             "arranque_dificil_caliente"
         ],
-        "diagnostico": "combustible_falla_010",
-        "prueba": "verificar_combustible_11",
-        "solucion": "aplicar_combustible_solucion_11",
+        "diagnostico": "vaporizacion_de_combustible_en_linea",
+        "prueba": "verificar_temperatura_de_lineas_de_combustible",
+        "solucion": "aislar_lineas_de_combustible_y_revisar_purga_de_vapor",
         "prioridad": 1
     },
     {
@@ -915,9 +915,9 @@
             "arranque_dificil_frio",
             "presion_combustible_baja"
         ],
-        "diagnostico": "combustible_falla_011",
-        "prueba": "verificar_combustible_12",
-        "solucion": "aplicar_combustible_solucion_12",
+        "diagnostico": "bomba_de_combustible_debil",
+        "prueba": "medir_presion_de_combustible_en_riel",
+        "solucion": "reemplazar_bomba_de_combustible",
         "prioridad": 2
     },
     {
@@ -928,9 +928,9 @@
             "bomba_ruidosa",
             "motor_se_apaga_en_marcha"
         ],
-        "diagnostico": "combustible_falla_012",
-        "prueba": "verificar_combustible_13",
-        "solucion": "aplicar_combustible_solucion_13",
+        "diagnostico": "filtro_de_combustible_obstruido",
+        "prueba": "medir_caida_de_presion_en_filtro",
+        "solucion": "reemplazar_filtro_de_combustible",
         "prioridad": 3
     },
     {
@@ -941,9 +941,9 @@
             "inyector_sucio",
             "consumo_combustible_alto"
         ],
-        "diagnostico": "combustible_falla_013",
-        "prueba": "verificar_combustible_14",
-        "solucion": "aplicar_combustible_solucion_14",
+        "diagnostico": "inyectores_sucios_con_goteo",
+        "prueba": "prueba_de_atomizacion_y_goteo_de_inyectores",
+        "solucion": "limpiar_inyectores_en_ultrasonido_o_reemplazar",
         "prioridad": 4
     },
     {
@@ -954,9 +954,9 @@
             "respuesta_lenta_acelerador",
             "falla_al_acelerar"
         ],
-        "diagnostico": "combustible_falla_014",
-        "prueba": "verificar_combustible_15",
-        "solucion": "aplicar_combustible_solucion_15",
+        "diagnostico": "sensor_de_presion_de_combustible_defectuoso",
+        "prueba": "verificar_señal_del_sensor_con_osciloscopio",
+        "solucion": "reemplazar_sensor_de_presion_de_combustible",
         "prioridad": 5
     },
     {
@@ -967,9 +967,9 @@
             "olor_gasolina",
             "arranque_dificil_caliente"
         ],
-        "diagnostico": "combustible_falla_015",
-        "prueba": "verificar_combustible_01",
-        "solucion": "aplicar_combustible_solucion_01",
+        "diagnostico": "vaporizacion_de_combustible_en_linea",
+        "prueba": "verificar_temperatura_de_lineas_de_combustible",
+        "solucion": "aislar_lineas_de_combustible_y_revisar_purga_de_vapor",
         "prioridad": 6
     },
     {
@@ -980,9 +980,9 @@
             "arranque_dificil_frio",
             "presion_combustible_baja"
         ],
-        "diagnostico": "combustible_falla_016",
-        "prueba": "verificar_combustible_02",
-        "solucion": "aplicar_combustible_solucion_02",
+        "diagnostico": "bomba_de_combustible_debil",
+        "prueba": "medir_presion_de_combustible_en_riel",
+        "solucion": "reemplazar_bomba_de_combustible",
         "prioridad": 7
     },
     {
@@ -993,9 +993,9 @@
             "bomba_ruidosa",
             "motor_se_apaga_en_marcha"
         ],
-        "diagnostico": "combustible_falla_017",
-        "prueba": "verificar_combustible_03",
-        "solucion": "aplicar_combustible_solucion_03",
+        "diagnostico": "filtro_de_combustible_obstruido",
+        "prueba": "medir_caida_de_presion_en_filtro",
+        "solucion": "reemplazar_filtro_de_combustible",
         "prioridad": 8
     },
     {
@@ -1006,9 +1006,9 @@
             "inyector_sucio",
             "consumo_combustible_alto"
         ],
-        "diagnostico": "combustible_falla_018",
-        "prueba": "verificar_combustible_04",
-        "solucion": "aplicar_combustible_solucion_04",
+        "diagnostico": "inyectores_sucios_con_goteo",
+        "prueba": "prueba_de_atomizacion_y_goteo_de_inyectores",
+        "solucion": "limpiar_inyectores_en_ultrasonido_o_reemplazar",
         "prioridad": 9
     },
     {
@@ -1019,9 +1019,9 @@
             "respuesta_lenta_acelerador",
             "falla_al_acelerar"
         ],
-        "diagnostico": "combustible_falla_019",
-        "prueba": "verificar_combustible_05",
-        "solucion": "aplicar_combustible_solucion_05",
+        "diagnostico": "sensor_de_presion_de_combustible_defectuoso",
+        "prueba": "verificar_señal_del_sensor_con_osciloscopio",
+        "solucion": "reemplazar_sensor_de_presion_de_combustible",
         "prioridad": 10
     },
     {
@@ -1032,9 +1032,9 @@
             "olor_gasolina",
             "arranque_dificil_caliente"
         ],
-        "diagnostico": "combustible_falla_020",
-        "prueba": "verificar_combustible_06",
-        "solucion": "aplicar_combustible_solucion_06",
+        "diagnostico": "vaporizacion_de_combustible_en_linea",
+        "prueba": "verificar_temperatura_de_lineas_de_combustible",
+        "solucion": "aislar_lineas_de_combustible_y_revisar_purga_de_vapor",
         "prioridad": 1
     },
     {
@@ -1045,9 +1045,9 @@
             "arranque_dificil_frio",
             "presion_combustible_baja"
         ],
-        "diagnostico": "combustible_falla_021",
-        "prueba": "verificar_combustible_07",
-        "solucion": "aplicar_combustible_solucion_07",
+        "diagnostico": "bomba_de_combustible_debil",
+        "prueba": "medir_presion_de_combustible_en_riel",
+        "solucion": "reemplazar_bomba_de_combustible",
         "prioridad": 2
     },
     {
@@ -1058,9 +1058,9 @@
             "bomba_ruidosa",
             "motor_se_apaga_en_marcha"
         ],
-        "diagnostico": "combustible_falla_022",
-        "prueba": "verificar_combustible_08",
-        "solucion": "aplicar_combustible_solucion_08",
+        "diagnostico": "filtro_de_combustible_obstruido",
+        "prueba": "medir_caida_de_presion_en_filtro",
+        "solucion": "reemplazar_filtro_de_combustible",
         "prioridad": 3
     },
     {
@@ -1071,9 +1071,9 @@
             "inyector_sucio",
             "consumo_combustible_alto"
         ],
-        "diagnostico": "combustible_falla_023",
-        "prueba": "verificar_combustible_09",
-        "solucion": "aplicar_combustible_solucion_09",
+        "diagnostico": "inyectores_sucios_con_goteo",
+        "prueba": "prueba_de_atomizacion_y_goteo_de_inyectores",
+        "solucion": "limpiar_inyectores_en_ultrasonido_o_reemplazar",
         "prioridad": 4
     },
     {
@@ -1084,9 +1084,9 @@
             "respuesta_lenta_acelerador",
             "falla_al_acelerar"
         ],
-        "diagnostico": "combustible_falla_024",
-        "prueba": "verificar_combustible_10",
-        "solucion": "aplicar_combustible_solucion_10",
+        "diagnostico": "sensor_de_presion_de_combustible_defectuoso",
+        "prueba": "verificar_señal_del_sensor_con_osciloscopio",
+        "solucion": "reemplazar_sensor_de_presion_de_combustible",
         "prioridad": 5
     },
     {
@@ -1097,9 +1097,9 @@
             "olor_gasolina",
             "arranque_dificil_caliente"
         ],
-        "diagnostico": "combustible_falla_025",
-        "prueba": "verificar_combustible_11",
-        "solucion": "aplicar_combustible_solucion_11",
+        "diagnostico": "vaporizacion_de_combustible_en_linea",
+        "prueba": "verificar_temperatura_de_lineas_de_combustible",
+        "solucion": "aislar_lineas_de_combustible_y_revisar_purga_de_vapor",
         "prioridad": 6
     },
     {
@@ -1110,9 +1110,9 @@
             "vibracion_pedal",
             "freno_mano_sin_retener"
         ],
-        "diagnostico": "frenos_falla_001",
-        "prueba": "verificar_frenos_02",
-        "solucion": "aplicar_frenos_solucion_02",
+        "diagnostico": "aire_en_circuito_de_frenos_traseros",
+        "prueba": "purgar_circuito_trasero_y_verificar_fugas",
+        "solucion": "purgar_sistema_de_frenos_completo",
         "prioridad": 2
     },
     {
@@ -1123,9 +1123,9 @@
             "testigo_freno_encendido",
             "chirrido_constante"
         ],
-        "diagnostico": "frenos_falla_002",
-        "prueba": "verificar_frenos_03",
-        "solucion": "aplicar_frenos_solucion_03",
+        "diagnostico": "sensor_de_desgaste_de_pastillas_activado",
+        "prueba": "verificar_indicador_de_desgaste_y_espesor_de_pastillas",
+        "solucion": "reemplazar_pastillas_de_freno_con_sensor",
         "prioridad": 3
     },
     {
@@ -1136,9 +1136,9 @@
             "disco_sobrecalentado",
             "pedal_esponjoso"
         ],
-        "diagnostico": "frenos_falla_003",
-        "prueba": "verificar_frenos_04",
-        "solucion": "aplicar_frenos_solucion_04",
+        "diagnostico": "caliper_de_freno_agarrotado",
+        "prueba": "verificar_libre_deslizamiento_del_caliper",
+        "solucion": "reconstruir_o_reemplazar_caliper_de_freno",
         "prioridad": 4
     },
     {
@@ -1149,9 +1149,9 @@
             "nivel_liquido_bajo",
             "ruido_al_frenar"
         ],
-        "diagnostico": "frenos_falla_004",
-        "prueba": "verificar_frenos_05",
-        "solucion": "aplicar_frenos_solucion_05",
+        "diagnostico": "cables_de_freno_de_mano_estrechos",
+        "prueba": "ajustar_y_medir_recorrido_del_freno_de_mano",
+        "solucion": "reemplazar_y_ajustar_cables_de_freno_de_mano",
         "prioridad": 5
     },
     {
@@ -1162,9 +1162,9 @@
             "frenado_largo",
             "desviacion_al_frenar"
         ],
-        "diagnostico": "frenos_falla_005",
-        "prueba": "verificar_frenos_06",
-        "solucion": "aplicar_frenos_solucion_06",
+        "diagnostico": "pastillas_de_freno_vitrificadas",
+        "prueba": "inspeccionar_superficie_de_pastillas_y_discos",
+        "solucion": "reemplazar_pastillas_y_esmerilar_discos",
         "prioridad": 6
     },
     {
@@ -1175,9 +1175,9 @@
             "vibracion_pedal",
             "freno_mano_sin_retener"
         ],
-        "diagnostico": "frenos_falla_006",
-        "prueba": "verificar_frenos_07",
-        "solucion": "aplicar_frenos_solucion_07",
+        "diagnostico": "aire_en_circuito_de_frenos_traseros",
+        "prueba": "purgar_circuito_trasero_y_verificar_fugas",
+        "solucion": "purgar_sistema_de_frenos_completo",
         "prioridad": 7
     },
     {
@@ -1188,9 +1188,9 @@
             "testigo_freno_encendido",
             "chirrido_constante"
         ],
-        "diagnostico": "frenos_falla_007",
-        "prueba": "verificar_frenos_08",
-        "solucion": "aplicar_frenos_solucion_08",
+        "diagnostico": "sensor_de_desgaste_de_pastillas_activado",
+        "prueba": "verificar_indicador_de_desgaste_y_espesor_de_pastillas",
+        "solucion": "reemplazar_pastillas_de_freno_con_sensor",
         "prioridad": 8
     },
     {
@@ -1201,9 +1201,9 @@
             "disco_sobrecalentado",
             "pedal_esponjoso"
         ],
-        "diagnostico": "frenos_falla_008",
-        "prueba": "verificar_frenos_09",
-        "solucion": "aplicar_frenos_solucion_09",
+        "diagnostico": "caliper_de_freno_agarrotado",
+        "prueba": "verificar_libre_deslizamiento_del_caliper",
+        "solucion": "reconstruir_o_reemplazar_caliper_de_freno",
         "prioridad": 9
     },
     {
@@ -1214,9 +1214,9 @@
             "nivel_liquido_bajo",
             "ruido_al_frenar"
         ],
-        "diagnostico": "frenos_falla_009",
-        "prueba": "verificar_frenos_10",
-        "solucion": "aplicar_frenos_solucion_10",
+        "diagnostico": "cables_de_freno_de_mano_estrechos",
+        "prueba": "ajustar_y_medir_recorrido_del_freno_de_mano",
+        "solucion": "reemplazar_y_ajustar_cables_de_freno_de_mano",
         "prioridad": 10
     },
     {
@@ -1227,9 +1227,9 @@
             "frenado_largo",
             "desviacion_al_frenar"
         ],
-        "diagnostico": "frenos_falla_010",
-        "prueba": "verificar_frenos_11",
-        "solucion": "aplicar_frenos_solucion_11",
+        "diagnostico": "pastillas_de_freno_vitrificadas",
+        "prueba": "inspeccionar_superficie_de_pastillas_y_discos",
+        "solucion": "reemplazar_pastillas_y_esmerilar_discos",
         "prioridad": 1
     },
     {
@@ -1240,9 +1240,9 @@
             "vibracion_pedal",
             "freno_mano_sin_retener"
         ],
-        "diagnostico": "frenos_falla_011",
-        "prueba": "verificar_frenos_12",
-        "solucion": "aplicar_frenos_solucion_12",
+        "diagnostico": "aire_en_circuito_de_frenos_traseros",
+        "prueba": "purgar_circuito_trasero_y_verificar_fugas",
+        "solucion": "purgar_sistema_de_frenos_completo",
         "prioridad": 2
     },
     {
@@ -1253,9 +1253,9 @@
             "testigo_freno_encendido",
             "chirrido_constante"
         ],
-        "diagnostico": "frenos_falla_012",
-        "prueba": "verificar_frenos_13",
-        "solucion": "aplicar_frenos_solucion_13",
+        "diagnostico": "sensor_de_desgaste_de_pastillas_activado",
+        "prueba": "verificar_indicador_de_desgaste_y_espesor_de_pastillas",
+        "solucion": "reemplazar_pastillas_de_freno_con_sensor",
         "prioridad": 3
     },
     {
@@ -1266,9 +1266,9 @@
             "disco_sobrecalentado",
             "pedal_esponjoso"
         ],
-        "diagnostico": "frenos_falla_013",
-        "prueba": "verificar_frenos_14",
-        "solucion": "aplicar_frenos_solucion_14",
+        "diagnostico": "caliper_de_freno_agarrotado",
+        "prueba": "verificar_libre_deslizamiento_del_caliper",
+        "solucion": "reconstruir_o_reemplazar_caliper_de_freno",
         "prioridad": 4
     },
     {
@@ -1279,9 +1279,9 @@
             "nivel_liquido_bajo",
             "ruido_al_frenar"
         ],
-        "diagnostico": "frenos_falla_014",
-        "prueba": "verificar_frenos_15",
-        "solucion": "aplicar_frenos_solucion_15",
+        "diagnostico": "cables_de_freno_de_mano_estrechos",
+        "prueba": "ajustar_y_medir_recorrido_del_freno_de_mano",
+        "solucion": "reemplazar_y_ajustar_cables_de_freno_de_mano",
         "prioridad": 5
     },
     {
@@ -1292,9 +1292,9 @@
             "frenado_largo",
             "desviacion_al_frenar"
         ],
-        "diagnostico": "frenos_falla_015",
-        "prueba": "verificar_frenos_01",
-        "solucion": "aplicar_frenos_solucion_01",
+        "diagnostico": "pastillas_de_freno_vitrificadas",
+        "prueba": "inspeccionar_superficie_de_pastillas_y_discos",
+        "solucion": "reemplazar_pastillas_y_esmerilar_discos",
         "prioridad": 6
     },
     {
@@ -1305,9 +1305,9 @@
             "vibracion_pedal",
             "freno_mano_sin_retener"
         ],
-        "diagnostico": "frenos_falla_016",
-        "prueba": "verificar_frenos_02",
-        "solucion": "aplicar_frenos_solucion_02",
+        "diagnostico": "aire_en_circuito_de_frenos_traseros",
+        "prueba": "purgar_circuito_trasero_y_verificar_fugas",
+        "solucion": "purgar_sistema_de_frenos_completo",
         "prioridad": 7
     },
     {
@@ -1318,9 +1318,9 @@
             "testigo_freno_encendido",
             "chirrido_constante"
         ],
-        "diagnostico": "frenos_falla_017",
-        "prueba": "verificar_frenos_03",
-        "solucion": "aplicar_frenos_solucion_03",
+        "diagnostico": "sensor_de_desgaste_de_pastillas_activado",
+        "prueba": "verificar_indicador_de_desgaste_y_espesor_de_pastillas",
+        "solucion": "reemplazar_pastillas_de_freno_con_sensor",
         "prioridad": 8
     },
     {
@@ -1331,9 +1331,9 @@
             "disco_sobrecalentado",
             "pedal_esponjoso"
         ],
-        "diagnostico": "frenos_falla_018",
-        "prueba": "verificar_frenos_04",
-        "solucion": "aplicar_frenos_solucion_04",
+        "diagnostico": "caliper_de_freno_agarrotado",
+        "prueba": "verificar_libre_deslizamiento_del_caliper",
+        "solucion": "reconstruir_o_reemplazar_caliper_de_freno",
         "prioridad": 9
     },
     {
@@ -1344,9 +1344,9 @@
             "nivel_liquido_bajo",
             "ruido_al_frenar"
         ],
-        "diagnostico": "frenos_falla_019",
-        "prueba": "verificar_frenos_05",
-        "solucion": "aplicar_frenos_solucion_05",
+        "diagnostico": "cables_de_freno_de_mano_estrechos",
+        "prueba": "ajustar_y_medir_recorrido_del_freno_de_mano",
+        "solucion": "reemplazar_y_ajustar_cables_de_freno_de_mano",
         "prioridad": 10
     },
     {
@@ -1357,9 +1357,9 @@
             "frenado_largo",
             "desviacion_al_frenar"
         ],
-        "diagnostico": "frenos_falla_020",
-        "prueba": "verificar_frenos_06",
-        "solucion": "aplicar_frenos_solucion_06",
+        "diagnostico": "pastillas_de_freno_vitrificadas",
+        "prueba": "inspeccionar_superficie_de_pastillas_y_discos",
+        "solucion": "reemplazar_pastillas_y_esmerilar_discos",
         "prioridad": 1
     },
     {
@@ -1370,9 +1370,9 @@
             "calefaccion_no_calienta",
             "aguja_temperatura_inestable"
         ],
-        "diagnostico": "temperatura_falla_001",
-        "prueba": "verificar_temperatura_02",
-        "solucion": "aplicar_temperatura_solucion_02",
+        "diagnostico": "termostato_abriendo_prematuramente",
+        "prueba": "verificar_temperatura_de_apertura_del_termostato",
+        "solucion": "reemplazar_termostato_con_apertura_correcta",
         "prioridad": 2
     },
     {
@@ -1383,9 +1383,9 @@
             "ebullicion_deposito",
             "sobrecalentamiento_en_trafico"
         ],
-        "diagnostico": "temperatura_falla_002",
-        "prueba": "verificar_temperatura_03",
-        "solucion": "aplicar_temperatura_solucion_03",
+        "diagnostico": "tapon_de_deposito_de_refrigerante_sin_presion",
+        "prueba": "probar_presion_de_apertura_del_tapon_radiador",
+        "solucion": "reemplazar_tapon_de_expansion_y_purgar_sistema",
         "prioridad": 3
     },
     {
@@ -1396,9 +1396,9 @@
             "termostato_bloqueado",
             "temperatura_alta"
         ],
-        "diagnostico": "temperatura_falla_003",
-        "prueba": "verificar_temperatura_04",
-        "solucion": "aplicar_temperatura_solucion_04",
+        "diagnostico": "presion_excesiva_por_gases_de_combustion",
+        "prueba": "prueba_de_gases_en_refrigerante_con_reactivo",
+        "solucion": "revisar_empaque_de_cabeza_y_rectificar_culata",
         "prioridad": 4
     },
     {
@@ -1409,9 +1409,9 @@
             "nivel_refrigerante_bajo",
             "fuga_refrigerante"
         ],
-        "diagnostico": "temperatura_falla_004",
-        "prueba": "verificar_temperatura_05",
-        "solucion": "aplicar_temperatura_solucion_05",
+        "diagnostico": "grifo_calefaccion_o_manguera_con_fuga",
+        "prueba": "presurizar_sistema_e_inspeccionar_fugas",
+        "solucion": "reemplazar_grifo_de_calefaccion_o_manguera_afectada",
         "prioridad": 5
     },
     {
@@ -1422,9 +1422,9 @@
             "ventilador_no_activa",
             "manguera_radiador_dura"
         ],
-        "diagnostico": "temperatura_falla_005",
-        "prueba": "verificar_temperatura_06",
-        "solucion": "aplicar_temperatura_solucion_06",
+        "diagnostico": "sensor_de_temperatura_del_ventilador_defectuoso",
+        "prueba": "verificar_temperatura_de_activacion_del_electroventilador",
+        "solucion": "reemplazar_sensor_de_temperatura_del_radiador",
         "prioridad": 6
     },
     {
@@ -1435,9 +1435,9 @@
             "calefaccion_no_calienta",
             "aguja_temperatura_inestable"
         ],
-        "diagnostico": "temperatura_falla_006",
-        "prueba": "verificar_temperatura_07",
-        "solucion": "aplicar_temperatura_solucion_07",
+        "diagnostico": "termostato_abriendo_prematuramente",
+        "prueba": "verificar_temperatura_de_apertura_del_termostato",
+        "solucion": "reemplazar_termostato_con_apertura_correcta",
         "prioridad": 7
     },
     {
@@ -1448,9 +1448,9 @@
             "ebullicion_deposito",
             "sobrecalentamiento_en_trafico"
         ],
-        "diagnostico": "temperatura_falla_007",
-        "prueba": "verificar_temperatura_08",
-        "solucion": "aplicar_temperatura_solucion_08",
+        "diagnostico": "tapon_de_deposito_de_refrigerante_sin_presion",
+        "prueba": "probar_presion_de_apertura_del_tapon_radiador",
+        "solucion": "reemplazar_tapon_de_expansion_y_purgar_sistema",
         "prioridad": 8
     },
     {
@@ -1461,9 +1461,9 @@
             "termostato_bloqueado",
             "temperatura_alta"
         ],
-        "diagnostico": "temperatura_falla_008",
-        "prueba": "verificar_temperatura_09",
-        "solucion": "aplicar_temperatura_solucion_09",
+        "diagnostico": "presion_excesiva_por_gases_de_combustion",
+        "prueba": "prueba_de_gases_en_refrigerante_con_reactivo",
+        "solucion": "revisar_empaque_de_cabeza_y_rectificar_culata",
         "prioridad": 9
     },
     {
@@ -1474,9 +1474,9 @@
             "nivel_refrigerante_bajo",
             "fuga_refrigerante"
         ],
-        "diagnostico": "temperatura_falla_009",
-        "prueba": "verificar_temperatura_10",
-        "solucion": "aplicar_temperatura_solucion_10",
+        "diagnostico": "grifo_calefaccion_o_manguera_con_fuga",
+        "prueba": "presurizar_sistema_e_inspeccionar_fugas",
+        "solucion": "reemplazar_grifo_de_calefaccion_o_manguera_afectada",
         "prioridad": 10
     },
     {
@@ -1487,9 +1487,9 @@
             "ventilador_no_activa",
             "manguera_radiador_dura"
         ],
-        "diagnostico": "temperatura_falla_010",
-        "prueba": "verificar_temperatura_11",
-        "solucion": "aplicar_temperatura_solucion_11",
+        "diagnostico": "sensor_de_temperatura_del_ventilador_defectuoso",
+        "prueba": "verificar_temperatura_de_activacion_del_electroventilador",
+        "solucion": "reemplazar_sensor_de_temperatura_del_radiador",
         "prioridad": 1
     },
     {
@@ -1500,9 +1500,9 @@
             "calefaccion_no_calienta",
             "aguja_temperatura_inestable"
         ],
-        "diagnostico": "temperatura_falla_011",
-        "prueba": "verificar_temperatura_12",
-        "solucion": "aplicar_temperatura_solucion_12",
+        "diagnostico": "termostato_abriendo_prematuramente",
+        "prueba": "verificar_temperatura_de_apertura_del_termostato",
+        "solucion": "reemplazar_termostato_con_apertura_correcta",
         "prioridad": 2
     },
     {
@@ -1513,9 +1513,9 @@
             "ebullicion_deposito",
             "sobrecalentamiento_en_trafico"
         ],
-        "diagnostico": "temperatura_falla_012",
-        "prueba": "verificar_temperatura_13",
-        "solucion": "aplicar_temperatura_solucion_13",
+        "diagnostico": "tapon_de_deposito_de_refrigerante_sin_presion",
+        "prueba": "probar_presion_de_apertura_del_tapon_radiador",
+        "solucion": "reemplazar_tapon_de_expansion_y_purgar_sistema",
         "prioridad": 3
     },
     {
@@ -1526,9 +1526,9 @@
             "termostato_bloqueado",
             "temperatura_alta"
         ],
-        "diagnostico": "temperatura_falla_013",
-        "prueba": "verificar_temperatura_14",
-        "solucion": "aplicar_temperatura_solucion_14",
+        "diagnostico": "presion_excesiva_por_gases_de_combustion",
+        "prueba": "prueba_de_gases_en_refrigerante_con_reactivo",
+        "solucion": "revisar_empaque_de_cabeza_y_rectificar_culata",
         "prioridad": 4
     },
     {
@@ -1539,9 +1539,9 @@
             "nivel_refrigerante_bajo",
             "fuga_refrigerante"
         ],
-        "diagnostico": "temperatura_falla_014",
-        "prueba": "verificar_temperatura_15",
-        "solucion": "aplicar_temperatura_solucion_15",
+        "diagnostico": "grifo_calefaccion_o_manguera_con_fuga",
+        "prueba": "presurizar_sistema_e_inspeccionar_fugas",
+        "solucion": "reemplazar_grifo_de_calefaccion_o_manguera_afectada",
         "prioridad": 5
     },
     {
@@ -1552,9 +1552,9 @@
             "ventilador_no_activa",
             "manguera_radiador_dura"
         ],
-        "diagnostico": "temperatura_falla_015",
-        "prueba": "verificar_temperatura_01",
-        "solucion": "aplicar_temperatura_solucion_01",
+        "diagnostico": "sensor_de_temperatura_del_ventilador_defectuoso",
+        "prueba": "verificar_temperatura_de_activacion_del_electroventilador",
+        "solucion": "reemplazar_sensor_de_temperatura_del_radiador",
         "prioridad": 6
     },
     {
@@ -1565,9 +1565,9 @@
             "calefaccion_no_calienta",
             "aguja_temperatura_inestable"
         ],
-        "diagnostico": "temperatura_falla_016",
-        "prueba": "verificar_temperatura_02",
-        "solucion": "aplicar_temperatura_solucion_02",
+        "diagnostico": "termostato_abriendo_prematuramente",
+        "prueba": "verificar_temperatura_de_apertura_del_termostato",
+        "solucion": "reemplazar_termostato_con_apertura_correcta",
         "prioridad": 7
     },
     {
@@ -1578,9 +1578,9 @@
             "ebullicion_deposito",
             "sobrecalentamiento_en_trafico"
         ],
-        "diagnostico": "temperatura_falla_017",
-        "prueba": "verificar_temperatura_03",
-        "solucion": "aplicar_temperatura_solucion_03",
+        "diagnostico": "tapon_de_deposito_de_refrigerante_sin_presion",
+        "prueba": "probar_presion_de_apertura_del_tapon_radiador",
+        "solucion": "reemplazar_tapon_de_expansion_y_purgar_sistema",
         "prioridad": 8
     },
     {
@@ -1591,9 +1591,9 @@
             "termostato_bloqueado",
             "temperatura_alta"
         ],
-        "diagnostico": "temperatura_falla_018",
-        "prueba": "verificar_temperatura_04",
-        "solucion": "aplicar_temperatura_solucion_04",
+        "diagnostico": "presion_excesiva_por_gases_de_combustion",
+        "prueba": "prueba_de_gases_en_refrigerante_con_reactivo",
+        "solucion": "revisar_empaque_de_cabeza_y_rectificar_culata",
         "prioridad": 9
     },
     {
@@ -1604,9 +1604,9 @@
             "nivel_refrigerante_bajo",
             "fuga_refrigerante"
         ],
-        "diagnostico": "temperatura_falla_019",
-        "prueba": "verificar_temperatura_05",
-        "solucion": "aplicar_temperatura_solucion_05",
+        "diagnostico": "grifo_calefaccion_o_manguera_con_fuga",
+        "prueba": "presurizar_sistema_e_inspeccionar_fugas",
+        "solucion": "reemplazar_grifo_de_calefaccion_o_manguera_afectada",
         "prioridad": 10
     },
     {
@@ -1617,9 +1617,9 @@
             "ventilador_no_activa",
             "manguera_radiador_dura"
         ],
-        "diagnostico": "temperatura_falla_020",
-        "prueba": "verificar_temperatura_06",
-        "solucion": "aplicar_temperatura_solucion_06",
+        "diagnostico": "sensor_de_temperatura_del_ventilador_defectuoso",
+        "prueba": "verificar_temperatura_de_activacion_del_electroventilador",
+        "solucion": "reemplazar_sensor_de_temperatura_del_radiador",
         "prioridad": 1
     },
     {
@@ -1630,9 +1630,9 @@
             "arranque_dificil",
             "lectura_erratica_scaner"
         ],
-        "diagnostico": "sensores_falla_001",
-        "prueba": "verificar_sensores_02",
-        "solucion": "aplicar_sensores_solucion_02",
+        "diagnostico": "sensor_de_posicion_del_ciguenial_CKP_falla",
+        "prueba": "verificar_señal_CKP_con_osciloscopio",
+        "solucion": "reemplazar_sensor_CKP_y_limpiar_rueda_fonica",
         "prioridad": 2
     },
     {
@@ -1643,9 +1643,9 @@
             "codigo_sensor_fuera_rango",
             "respuesta_lenta_motor"
         ],
-        "diagnostico": "sensores_falla_002",
-        "prueba": "verificar_sensores_03",
-        "solucion": "aplicar_sensores_solucion_03",
+        "diagnostico": "sensor_de_temperatura_de_refrigerante_ECT_descalibrado",
+        "prueba": "comparar_temperatura_real_vs_lectura_del_ECT",
+        "solucion": "reemplazar_sensor_ECT_de_temperatura_de_refrigerante",
         "prioridad": 3
     },
     {
@@ -1656,9 +1656,9 @@
             "modo_seguro_activado",
             "luz_check_engine"
         ],
-        "diagnostico": "sensores_falla_003",
-        "prueba": "verificar_sensores_04",
-        "solucion": "aplicar_sensores_solucion_04",
+        "diagnostico": "sensor_TPS_posicion_mariposa_defectuoso",
+        "prueba": "verificar_curva_de_voltaje_del_TPS_en_aceleracion",
+        "solucion": "reemplazar_sensor_de_posicion_de_mariposa_TPS",
         "prioridad": 4
     },
     {
@@ -1669,9 +1669,9 @@
             "apagon_inesperado",
             "consumo_alto"
         ],
-        "diagnostico": "sensores_falla_004",
-        "prueba": "verificar_sensores_05",
-        "solucion": "aplicar_sensores_solucion_05",
+        "diagnostico": "sensor_MAP_defectuoso",
+        "prueba": "comparar_lectura_del_sensor_MAP_con_vacuometro",
+        "solucion": "reemplazar_sensor_de_presion_absoluta_MAP",
         "prioridad": 5
     },
     {
@@ -1682,9 +1682,9 @@
             "ralenti_irregular",
             "falla_en_aceleracion"
         ],
-        "diagnostico": "sensores_falla_005",
-        "prueba": "verificar_sensores_06",
-        "solucion": "aplicar_sensores_solucion_06",
+        "diagnostico": "sensor_MAF_fuera_de_rango",
+        "prueba": "comparar_lectura_MAF_vs_especificacion_en_ralenti",
+        "solucion": "limpiar_o_reemplazar_sensor_de_flujo_de_masa_MAF",
         "prioridad": 6
     },
     {
@@ -1695,9 +1695,9 @@
             "arranque_dificil",
             "lectura_erratica_scaner"
         ],
-        "diagnostico": "sensores_falla_006",
-        "prueba": "verificar_sensores_07",
-        "solucion": "aplicar_sensores_solucion_07",
+        "diagnostico": "sensor_de_posicion_del_ciguenial_CKP_falla",
+        "prueba": "verificar_señal_CKP_con_osciloscopio",
+        "solucion": "reemplazar_sensor_CKP_y_limpiar_rueda_fonica",
         "prioridad": 7
     },
     {
@@ -1708,9 +1708,9 @@
             "codigo_sensor_fuera_rango",
             "respuesta_lenta_motor"
         ],
-        "diagnostico": "sensores_falla_007",
-        "prueba": "verificar_sensores_08",
-        "solucion": "aplicar_sensores_solucion_08",
+        "diagnostico": "sensor_de_temperatura_de_refrigerante_ECT_descalibrado",
+        "prueba": "comparar_temperatura_real_vs_lectura_del_ECT",
+        "solucion": "reemplazar_sensor_ECT_de_temperatura_de_refrigerante",
         "prioridad": 8
     },
     {
@@ -1721,9 +1721,9 @@
             "modo_seguro_activado",
             "luz_check_engine"
         ],
-        "diagnostico": "sensores_falla_008",
-        "prueba": "verificar_sensores_09",
-        "solucion": "aplicar_sensores_solucion_09",
+        "diagnostico": "sensor_TPS_posicion_mariposa_defectuoso",
+        "prueba": "verificar_curva_de_voltaje_del_TPS_en_aceleracion",
+        "solucion": "reemplazar_sensor_de_posicion_de_mariposa_TPS",
         "prioridad": 9
     },
     {
@@ -1734,9 +1734,9 @@
             "apagon_inesperado",
             "consumo_alto"
         ],
-        "diagnostico": "sensores_falla_009",
-        "prueba": "verificar_sensores_10",
-        "solucion": "aplicar_sensores_solucion_10",
+        "diagnostico": "sensor_MAP_defectuoso",
+        "prueba": "comparar_lectura_del_sensor_MAP_con_vacuometro",
+        "solucion": "reemplazar_sensor_de_presion_absoluta_MAP",
         "prioridad": 10
     },
     {
@@ -1747,9 +1747,9 @@
             "ralenti_irregular",
             "falla_en_aceleracion"
         ],
-        "diagnostico": "sensores_falla_010",
-        "prueba": "verificar_sensores_11",
-        "solucion": "aplicar_sensores_solucion_11",
+        "diagnostico": "sensor_MAF_fuera_de_rango",
+        "prueba": "comparar_lectura_MAF_vs_especificacion_en_ralenti",
+        "solucion": "limpiar_o_reemplazar_sensor_de_flujo_de_masa_MAF",
         "prioridad": 1
     },
     {
@@ -1760,9 +1760,9 @@
             "arranque_dificil",
             "lectura_erratica_scaner"
         ],
-        "diagnostico": "sensores_falla_011",
-        "prueba": "verificar_sensores_12",
-        "solucion": "aplicar_sensores_solucion_12",
+        "diagnostico": "sensor_de_posicion_del_ciguenial_CKP_falla",
+        "prueba": "verificar_señal_CKP_con_osciloscopio",
+        "solucion": "reemplazar_sensor_CKP_y_limpiar_rueda_fonica",
         "prioridad": 2
     },
     {
@@ -1773,9 +1773,9 @@
             "codigo_sensor_fuera_rango",
             "respuesta_lenta_motor"
         ],
-        "diagnostico": "sensores_falla_012",
-        "prueba": "verificar_sensores_13",
-        "solucion": "aplicar_sensores_solucion_13",
+        "diagnostico": "sensor_de_temperatura_de_refrigerante_ECT_descalibrado",
+        "prueba": "comparar_temperatura_real_vs_lectura_del_ECT",
+        "solucion": "reemplazar_sensor_ECT_de_temperatura_de_refrigerante",
         "prioridad": 3
     },
     {
@@ -1786,9 +1786,9 @@
             "modo_seguro_activado",
             "luz_check_engine"
         ],
-        "diagnostico": "sensores_falla_013",
-        "prueba": "verificar_sensores_14",
-        "solucion": "aplicar_sensores_solucion_14",
+        "diagnostico": "sensor_TPS_posicion_mariposa_defectuoso",
+        "prueba": "verificar_curva_de_voltaje_del_TPS_en_aceleracion",
+        "solucion": "reemplazar_sensor_de_posicion_de_mariposa_TPS",
         "prioridad": 4
     },
     {
@@ -1799,9 +1799,9 @@
             "apagon_inesperado",
             "consumo_alto"
         ],
-        "diagnostico": "sensores_falla_014",
-        "prueba": "verificar_sensores_15",
-        "solucion": "aplicar_sensores_solucion_15",
+        "diagnostico": "sensor_MAP_defectuoso",
+        "prueba": "comparar_lectura_del_sensor_MAP_con_vacuometro",
+        "solucion": "reemplazar_sensor_de_presion_absoluta_MAP",
         "prioridad": 5
     },
     {
@@ -1812,9 +1812,9 @@
             "ralenti_irregular",
             "falla_en_aceleracion"
         ],
-        "diagnostico": "sensores_falla_015",
-        "prueba": "verificar_sensores_01",
-        "solucion": "aplicar_sensores_solucion_01",
+        "diagnostico": "sensor_MAF_fuera_de_rango",
+        "prueba": "comparar_lectura_MAF_vs_especificacion_en_ralenti",
+        "solucion": "limpiar_o_reemplazar_sensor_de_flujo_de_masa_MAF",
         "prioridad": 6
     },
     {
@@ -1825,9 +1825,9 @@
             "arranque_dificil",
             "lectura_erratica_scaner"
         ],
-        "diagnostico": "sensores_falla_016",
-        "prueba": "verificar_sensores_02",
-        "solucion": "aplicar_sensores_solucion_02",
+        "diagnostico": "sensor_de_posicion_del_ciguenial_CKP_falla",
+        "prueba": "verificar_señal_CKP_con_osciloscopio",
+        "solucion": "reemplazar_sensor_CKP_y_limpiar_rueda_fonica",
         "prioridad": 7
     },
     {
@@ -1838,9 +1838,9 @@
             "codigo_sensor_fuera_rango",
             "respuesta_lenta_motor"
         ],
-        "diagnostico": "sensores_falla_017",
-        "prueba": "verificar_sensores_03",
-        "solucion": "aplicar_sensores_solucion_03",
+        "diagnostico": "sensor_de_temperatura_de_refrigerante_ECT_descalibrado",
+        "prueba": "comparar_temperatura_real_vs_lectura_del_ECT",
+        "solucion": "reemplazar_sensor_ECT_de_temperatura_de_refrigerante",
         "prioridad": 8
     },
     {
@@ -1851,9 +1851,9 @@
             "modo_seguro_activado",
             "luz_check_engine"
         ],
-        "diagnostico": "sensores_falla_018",
-        "prueba": "verificar_sensores_04",
-        "solucion": "aplicar_sensores_solucion_04",
+        "diagnostico": "sensor_TPS_posicion_mariposa_defectuoso",
+        "prueba": "verificar_curva_de_voltaje_del_TPS_en_aceleracion",
+        "solucion": "reemplazar_sensor_de_posicion_de_mariposa_TPS",
         "prioridad": 9
     },
     {
@@ -1864,9 +1864,9 @@
             "apagon_inesperado",
             "consumo_alto"
         ],
-        "diagnostico": "sensores_falla_019",
-        "prueba": "verificar_sensores_05",
-        "solucion": "aplicar_sensores_solucion_05",
+        "diagnostico": "sensor_MAP_defectuoso",
+        "prueba": "comparar_lectura_del_sensor_MAP_con_vacuometro",
+        "solucion": "reemplazar_sensor_de_presion_absoluta_MAP",
         "prioridad": 10
     },
     {
@@ -1877,9 +1877,9 @@
             "ralenti_irregular",
             "falla_en_aceleracion"
         ],
-        "diagnostico": "sensores_falla_020",
-        "prueba": "verificar_sensores_06",
-        "solucion": "aplicar_sensores_solucion_06",
+        "diagnostico": "sensor_MAF_fuera_de_rango",
+        "prueba": "comparar_lectura_MAF_vs_especificacion_en_ralenti",
+        "solucion": "limpiar_o_reemplazar_sensor_de_flujo_de_masa_MAF",
         "prioridad": 1
     },
     {
@@ -1890,9 +1890,9 @@
             "retardo_en_acople",
             "olor_aceite_quemado"
         ],
-        "diagnostico": "transmision_falla_001",
-        "prueba": "verificar_transmision_02",
-        "solucion": "aplicar_transmision_solucion_02",
+        "diagnostico": "aceite_de_transmision_automatica_degradado",
+        "prueba": "analizar_color_y_olor_del_aceite_ATF",
+        "solucion": "cambio_de_aceite_ATF_y_limpieza_del_filtro_interno",
         "prioridad": 2
     },
     {
@@ -1903,9 +1903,9 @@
             "fuga_aceite_transmision",
             "vibracion_en_marcha"
         ],
-        "diagnostico": "transmision_falla_002",
-        "prueba": "verificar_transmision_03",
-        "solucion": "aplicar_transmision_solucion_03",
+        "diagnostico": "retén_de_transmision_dañado",
+        "prueba": "localizar_fuente_de_fuga_en_retenes_y_juntas",
+        "solucion": "reemplazar_retenes_y_juntas_de_transmision",
         "prioridad": 3
     },
     {
@@ -1916,9 +1916,9 @@
             "no_entra_reversa",
             "cambio_brusco"
         ],
-        "diagnostico": "transmision_falla_003",
-        "prueba": "verificar_transmision_04",
-        "solucion": "aplicar_transmision_solucion_04",
+        "diagnostico": "sincronizador_de_reversa_desgastado",
+        "prueba": "verificar_mecanismo_selector_y_sincronizador",
+        "solucion": "reemplazar_sincronizador_de_reversa",
         "prioridad": 4
     },
     {
@@ -1929,9 +1929,9 @@
             "testigo_transmision_encendido",
             "golpe_al_cambiar"
         ],
-        "diagnostico": "transmision_falla_004",
-        "prueba": "verificar_transmision_05",
-        "solucion": "aplicar_transmision_solucion_05",
+        "diagnostico": "solenoide_de_cambio_defectuoso",
+        "prueba": "leer_codigos_de_transmision_automatica_y_probar_solenoides",
+        "solucion": "reemplazar_solenoide_de_control_de_cambio",
         "prioridad": 5
     },
     {
@@ -1942,9 +1942,9 @@
             "deslizamiento_marcha",
             "ruido_transmision"
         ],
-        "diagnostico": "transmision_falla_005",
-        "prueba": "verificar_transmision_06",
-        "solucion": "aplicar_transmision_solucion_06",
+        "diagnostico": "diferencial_con_rodamientos_desgastados",
+        "prueba": "verificar_holgura_y_ruido_en_diferencial",
+        "solucion": "reconstruir_diferencial_y_reemplazar_rodamientos",
         "prioridad": 6
     },
     {
@@ -1955,9 +1955,9 @@
             "retardo_en_acople",
             "olor_aceite_quemado"
         ],
-        "diagnostico": "transmision_falla_006",
-        "prueba": "verificar_transmision_07",
-        "solucion": "aplicar_transmision_solucion_07",
+        "diagnostico": "aceite_de_transmision_automatica_degradado",
+        "prueba": "analizar_color_y_olor_del_aceite_ATF",
+        "solucion": "cambio_de_aceite_ATF_y_limpieza_del_filtro_interno",
         "prioridad": 7
     },
     {
@@ -1968,9 +1968,9 @@
             "fuga_aceite_transmision",
             "vibracion_en_marcha"
         ],
-        "diagnostico": "transmision_falla_007",
-        "prueba": "verificar_transmision_08",
-        "solucion": "aplicar_transmision_solucion_08",
+        "diagnostico": "retén_de_transmision_dañado",
+        "prueba": "localizar_fuente_de_fuga_en_retenes_y_juntas",
+        "solucion": "reemplazar_retenes_y_juntas_de_transmision",
         "prioridad": 8
     },
     {
@@ -1981,9 +1981,9 @@
             "no_entra_reversa",
             "cambio_brusco"
         ],
-        "diagnostico": "transmision_falla_008",
-        "prueba": "verificar_transmision_09",
-        "solucion": "aplicar_transmision_solucion_09",
+        "diagnostico": "sincronizador_de_reversa_desgastado",
+        "prueba": "verificar_mecanismo_selector_y_sincronizador",
+        "solucion": "reemplazar_sincronizador_de_reversa",
         "prioridad": 9
     },
     {
@@ -1994,9 +1994,9 @@
             "testigo_transmision_encendido",
             "golpe_al_cambiar"
         ],
-        "diagnostico": "transmision_falla_009",
-        "prueba": "verificar_transmision_10",
-        "solucion": "aplicar_transmision_solucion_10",
+        "diagnostico": "solenoide_de_cambio_defectuoso",
+        "prueba": "leer_codigos_de_transmision_automatica_y_probar_solenoides",
+        "solucion": "reemplazar_solenoide_de_control_de_cambio",
         "prioridad": 10
     },
     {
@@ -2007,9 +2007,9 @@
             "deslizamiento_marcha",
             "ruido_transmision"
         ],
-        "diagnostico": "transmision_falla_010",
-        "prueba": "verificar_transmision_11",
-        "solucion": "aplicar_transmision_solucion_11",
+        "diagnostico": "diferencial_con_rodamientos_desgastados",
+        "prueba": "verificar_holgura_y_ruido_en_diferencial",
+        "solucion": "reconstruir_diferencial_y_reemplazar_rodamientos",
         "prioridad": 1
     },
     {
@@ -2020,9 +2020,9 @@
             "retardo_en_acople",
             "olor_aceite_quemado"
         ],
-        "diagnostico": "transmision_falla_011",
-        "prueba": "verificar_transmision_12",
-        "solucion": "aplicar_transmision_solucion_12",
+        "diagnostico": "aceite_de_transmision_automatica_degradado",
+        "prueba": "analizar_color_y_olor_del_aceite_ATF",
+        "solucion": "cambio_de_aceite_ATF_y_limpieza_del_filtro_interno",
         "prioridad": 2
     },
     {
@@ -2033,9 +2033,9 @@
             "fuga_aceite_transmision",
             "vibracion_en_marcha"
         ],
-        "diagnostico": "transmision_falla_012",
-        "prueba": "verificar_transmision_13",
-        "solucion": "aplicar_transmision_solucion_13",
+        "diagnostico": "retén_de_transmision_dañado",
+        "prueba": "localizar_fuente_de_fuga_en_retenes_y_juntas",
+        "solucion": "reemplazar_retenes_y_juntas_de_transmision",
         "prioridad": 3
     },
     {
@@ -2046,9 +2046,9 @@
             "no_entra_reversa",
             "cambio_brusco"
         ],
-        "diagnostico": "transmision_falla_013",
-        "prueba": "verificar_transmision_14",
-        "solucion": "aplicar_transmision_solucion_14",
+        "diagnostico": "sincronizador_de_reversa_desgastado",
+        "prueba": "verificar_mecanismo_selector_y_sincronizador",
+        "solucion": "reemplazar_sincronizador_de_reversa",
         "prioridad": 4
     },
     {
@@ -2059,9 +2059,9 @@
             "testigo_transmision_encendido",
             "golpe_al_cambiar"
         ],
-        "diagnostico": "transmision_falla_014",
-        "prueba": "verificar_transmision_15",
-        "solucion": "aplicar_transmision_solucion_15",
+        "diagnostico": "solenoide_de_cambio_defectuoso",
+        "prueba": "leer_codigos_de_transmision_automatica_y_probar_solenoides",
+        "solucion": "reemplazar_solenoide_de_control_de_cambio",
         "prioridad": 5
     },
     {
@@ -2072,9 +2072,9 @@
             "deslizamiento_marcha",
             "ruido_transmision"
         ],
-        "diagnostico": "transmision_falla_015",
-        "prueba": "verificar_transmision_01",
-        "solucion": "aplicar_transmision_solucion_01",
+        "diagnostico": "diferencial_con_rodamientos_desgastados",
+        "prueba": "verificar_holgura_y_ruido_en_diferencial",
+        "solucion": "reconstruir_diferencial_y_reemplazar_rodamientos",
         "prioridad": 6
     },
     {
@@ -2085,9 +2085,9 @@
             "retardo_en_acople",
             "olor_aceite_quemado"
         ],
-        "diagnostico": "transmision_falla_016",
-        "prueba": "verificar_transmision_02",
-        "solucion": "aplicar_transmision_solucion_02",
+        "diagnostico": "aceite_de_transmision_automatica_degradado",
+        "prueba": "analizar_color_y_olor_del_aceite_ATF",
+        "solucion": "cambio_de_aceite_ATF_y_limpieza_del_filtro_interno",
         "prioridad": 7
     },
     {
@@ -2098,9 +2098,9 @@
             "fuga_aceite_transmision",
             "vibracion_en_marcha"
         ],
-        "diagnostico": "transmision_falla_017",
-        "prueba": "verificar_transmision_03",
-        "solucion": "aplicar_transmision_solucion_03",
+        "diagnostico": "retén_de_transmision_dañado",
+        "prueba": "localizar_fuente_de_fuga_en_retenes_y_juntas",
+        "solucion": "reemplazar_retenes_y_juntas_de_transmision",
         "prioridad": 8
     },
     {
@@ -2111,9 +2111,9 @@
             "no_entra_reversa",
             "cambio_brusco"
         ],
-        "diagnostico": "transmision_falla_018",
-        "prueba": "verificar_transmision_04",
-        "solucion": "aplicar_transmision_solucion_04",
+        "diagnostico": "sincronizador_de_reversa_desgastado",
+        "prueba": "verificar_mecanismo_selector_y_sincronizador",
+        "solucion": "reemplazar_sincronizador_de_reversa",
         "prioridad": 9
     },
     {
@@ -2124,9 +2124,9 @@
             "testigo_transmision_encendido",
             "golpe_al_cambiar"
         ],
-        "diagnostico": "transmision_falla_019",
-        "prueba": "verificar_transmision_05",
-        "solucion": "aplicar_transmision_solucion_05",
+        "diagnostico": "solenoide_de_cambio_defectuoso",
+        "prueba": "leer_codigos_de_transmision_automatica_y_probar_solenoides",
+        "solucion": "reemplazar_solenoide_de_control_de_cambio",
         "prioridad": 10
     },
     {
@@ -2137,9 +2137,9 @@
             "deslizamiento_marcha",
             "ruido_transmision"
         ],
-        "diagnostico": "transmision_falla_020",
-        "prueba": "verificar_transmision_06",
-        "solucion": "aplicar_transmision_solucion_06",
+        "diagnostico": "diferencial_con_rodamientos_desgastados",
+        "prueba": "verificar_holgura_y_ruido_en_diferencial",
+        "solucion": "reconstruir_diferencial_y_reemplazar_rodamientos",
         "prioridad": 1
     },
     {
@@ -2150,9 +2150,9 @@
             "ruido_al_girar",
             "retorno_lento_volante"
         ],
-        "diagnostico": "direccion_falla_001",
-        "prueba": "verificar_direccion_02",
-        "solucion": "aplicar_direccion_solucion_02",
+        "diagnostico": "bomba_de_direccion_hidraulica_desgastada",
+        "prueba": "medir_presion_de_la_bomba_de_dirección",
+        "solucion": "reemplazar_bomba_de_direccion_hidraulica",
         "prioridad": 2
     },
     {
@@ -2163,9 +2163,9 @@
             "fuga_liquido_direccion",
             "desgaste_irregular_llantas"
         ],
-        "diagnostico": "direccion_falla_002",
-        "prueba": "verificar_direccion_03",
-        "solucion": "aplicar_direccion_solucion_03",
+        "diagnostico": "cremallera_de_direccion_con_fuga",
+        "prueba": "inspeccionar_fuelles_y_cremallera_de_direccion",
+        "solucion": "reemplazar_cremallera_de_direccion",
         "prioridad": 3
     },
     {
@@ -2176,9 +2176,9 @@
             "chasquido_en_giro",
             "direccion_dura"
         ],
-        "diagnostico": "direccion_falla_003",
-        "prueba": "verificar_direccion_04",
-        "solucion": "aplicar_direccion_solucion_04",
+        "diagnostico": "rotula_y_barra_de_direccion_desgastadas",
+        "prueba": "verificar_juego_en_rotulas_y_terminales_de_barra",
+        "solucion": "reemplazar_rotulas_y_terminales_de_direccion",
         "prioridad": 4
     },
     {
@@ -2189,9 +2189,9 @@
             "asistencia_intermitente",
             "desviacion_recta"
         ],
-        "diagnostico": "direccion_falla_004",
-        "prueba": "verificar_direccion_05",
-        "solucion": "aplicar_direccion_solucion_05",
+        "diagnostico": "columna_de_direccion_electrica_defectuosa",
+        "prueba": "leer_codigos_sensor_par_y_motor_EPS",
+        "solucion": "reemplazar_modulo_o_motor_de_asistencia_electrica",
         "prioridad": 5
     },
     {
@@ -2202,9 +2202,9 @@
             "vibracion_volante",
             "holgura_volante"
         ],
-        "diagnostico": "direccion_falla_005",
-        "prueba": "verificar_direccion_06",
-        "solucion": "aplicar_direccion_solucion_06",
+        "diagnostico": "juego_excesivo_en_caja_de_direccion",
+        "prueba": "medir_juego_libre_del_volante_y_revision_caja",
+        "solucion": "ajustar_o_reemplazar_caja_de_direccion",
         "prioridad": 6
     },
     {
@@ -2215,9 +2215,9 @@
             "ruido_al_girar",
             "retorno_lento_volante"
         ],
-        "diagnostico": "direccion_falla_006",
-        "prueba": "verificar_direccion_07",
-        "solucion": "aplicar_direccion_solucion_07",
+        "diagnostico": "bomba_de_direccion_hidraulica_desgastada",
+        "prueba": "medir_presion_de_la_bomba_de_dirección",
+        "solucion": "reemplazar_bomba_de_direccion_hidraulica",
         "prioridad": 7
     },
     {
@@ -2228,9 +2228,9 @@
             "fuga_liquido_direccion",
             "desgaste_irregular_llantas"
         ],
-        "diagnostico": "direccion_falla_007",
-        "prueba": "verificar_direccion_08",
-        "solucion": "aplicar_direccion_solucion_08",
+        "diagnostico": "cremallera_de_direccion_con_fuga",
+        "prueba": "inspeccionar_fuelles_y_cremallera_de_direccion",
+        "solucion": "reemplazar_cremallera_de_direccion",
         "prioridad": 8
     },
     {
@@ -2241,9 +2241,9 @@
             "chasquido_en_giro",
             "direccion_dura"
         ],
-        "diagnostico": "direccion_falla_008",
-        "prueba": "verificar_direccion_09",
-        "solucion": "aplicar_direccion_solucion_09",
+        "diagnostico": "rotula_y_barra_de_direccion_desgastadas",
+        "prueba": "verificar_juego_en_rotulas_y_terminales_de_barra",
+        "solucion": "reemplazar_rotulas_y_terminales_de_direccion",
         "prioridad": 9
     },
     {
@@ -2254,9 +2254,9 @@
             "asistencia_intermitente",
             "desviacion_recta"
         ],
-        "diagnostico": "direccion_falla_009",
-        "prueba": "verificar_direccion_10",
-        "solucion": "aplicar_direccion_solucion_10",
+        "diagnostico": "columna_de_direccion_electrica_defectuosa",
+        "prueba": "leer_codigos_sensor_par_y_motor_EPS",
+        "solucion": "reemplazar_modulo_o_motor_de_asistencia_electrica",
         "prioridad": 10
     },
     {
@@ -2267,9 +2267,9 @@
             "vibracion_volante",
             "holgura_volante"
         ],
-        "diagnostico": "direccion_falla_010",
-        "prueba": "verificar_direccion_11",
-        "solucion": "aplicar_direccion_solucion_11",
+        "diagnostico": "juego_excesivo_en_caja_de_direccion",
+        "prueba": "medir_juego_libre_del_volante_y_revision_caja",
+        "solucion": "ajustar_o_reemplazar_caja_de_direccion",
         "prioridad": 1
     },
     {
@@ -2280,9 +2280,9 @@
             "ruido_al_girar",
             "retorno_lento_volante"
         ],
-        "diagnostico": "direccion_falla_011",
-        "prueba": "verificar_direccion_12",
-        "solucion": "aplicar_direccion_solucion_12",
+        "diagnostico": "bomba_de_direccion_hidraulica_desgastada",
+        "prueba": "medir_presion_de_la_bomba_de_dirección",
+        "solucion": "reemplazar_bomba_de_direccion_hidraulica",
         "prioridad": 2
     },
     {
@@ -2293,9 +2293,9 @@
             "fuga_liquido_direccion",
             "desgaste_irregular_llantas"
         ],
-        "diagnostico": "direccion_falla_012",
-        "prueba": "verificar_direccion_13",
-        "solucion": "aplicar_direccion_solucion_13",
+        "diagnostico": "cremallera_de_direccion_con_fuga",
+        "prueba": "inspeccionar_fuelles_y_cremallera_de_direccion",
+        "solucion": "reemplazar_cremallera_de_direccion",
         "prioridad": 3
     },
     {
@@ -2306,9 +2306,9 @@
             "chasquido_en_giro",
             "direccion_dura"
         ],
-        "diagnostico": "direccion_falla_013",
-        "prueba": "verificar_direccion_14",
-        "solucion": "aplicar_direccion_solucion_14",
+        "diagnostico": "rotula_y_barra_de_direccion_desgastadas",
+        "prueba": "verificar_juego_en_rotulas_y_terminales_de_barra",
+        "solucion": "reemplazar_rotulas_y_terminales_de_direccion",
         "prioridad": 4
     },
     {
@@ -2319,9 +2319,9 @@
             "asistencia_intermitente",
             "desviacion_recta"
         ],
-        "diagnostico": "direccion_falla_014",
-        "prueba": "verificar_direccion_15",
-        "solucion": "aplicar_direccion_solucion_15",
+        "diagnostico": "columna_de_direccion_electrica_defectuosa",
+        "prueba": "leer_codigos_sensor_par_y_motor_EPS",
+        "solucion": "reemplazar_modulo_o_motor_de_asistencia_electrica",
         "prioridad": 5
     },
     {
@@ -2332,9 +2332,9 @@
             "vibracion_volante",
             "holgura_volante"
         ],
-        "diagnostico": "direccion_falla_015",
-        "prueba": "verificar_direccion_01",
-        "solucion": "aplicar_direccion_solucion_01",
+        "diagnostico": "juego_excesivo_en_caja_de_direccion",
+        "prueba": "medir_juego_libre_del_volante_y_revision_caja",
+        "solucion": "ajustar_o_reemplazar_caja_de_direccion",
         "prioridad": 6
     },
     {
@@ -2345,9 +2345,9 @@
             "ruido_amortiguador",
             "desgaste_copas"
         ],
-        "diagnostico": "suspension_falla_001",
-        "prueba": "verificar_suspension_02",
-        "solucion": "aplicar_suspension_solucion_02",
+        "diagnostico": "copas_y_collarines_de_amortiguador_desgastados",
+        "prueba": "inspeccionar_copas_y_bujes_de_montaje",
+        "solucion": "reemplazar_copas_y_collarines_del_amortiguador",
         "prioridad": 2
     },
     {
@@ -2358,9 +2358,9 @@
             "inestabilidad_curvas",
             "crujido_delantero"
         ],
-        "diagnostico": "suspension_falla_002",
-        "prueba": "verificar_suspension_03",
-        "solucion": "aplicar_suspension_solucion_03",
+        "diagnostico": "resorte_de_suspension_roto_o_asentado",
+        "prueba": "medir_altura_de_carroceria_en_cada_esquina",
+        "solucion": "reemplazar_resorte_de_suspension_afectado",
         "prioridad": 3
     },
     {
@@ -2371,9 +2371,9 @@
             "fuga_amortiguador",
             "golpeteo_baches"
         ],
-        "diagnostico": "suspension_falla_003",
-        "prueba": "verificar_suspension_04",
-        "solucion": "aplicar_suspension_solucion_04",
+        "diagnostico": "amortiguador_con_fuga_de_aceite",
+        "prueba": "inspeccionar_vastago_y_sello_del_amortiguador",
+        "solucion": "reemplazar_amortiguador_defectuoso",
         "prioridad": 4
     },
     {
@@ -2384,9 +2384,9 @@
             "balanceo_excesivo",
             "vehiculo_inclinado"
         ],
-        "diagnostico": "suspension_falla_004",
-        "prueba": "verificar_suspension_05",
-        "solucion": "aplicar_suspension_solucion_05",
+        "diagnostico": "barra_estabilizadora_con_bujes_deteriorados",
+        "prueba": "inspeccionar_bujes_y_terminales_de_barra_estabilizadora",
+        "solucion": "reemplazar_bujes_y_terminales_de_barra_estabilizadora",
         "prioridad": 5
     },
     {
@@ -2397,9 +2397,9 @@
             "rebote_excesivo",
             "altura_desigual"
         ],
-        "diagnostico": "suspension_falla_005",
-        "prueba": "verificar_suspension_06",
-        "solucion": "aplicar_suspension_solucion_06",
+        "diagnostico": "amortiguadores_delanteros_desgastados",
+        "prueba": "inspeccionar_amortiguadores_y_resortes",
+        "solucion": "reemplazar_amortiguadores_y_realizar_alineacion",
         "prioridad": 6
     },
     {
@@ -2410,9 +2410,9 @@
             "ruido_amortiguador",
             "desgaste_copas"
         ],
-        "diagnostico": "suspension_falla_006",
-        "prueba": "verificar_suspension_07",
-        "solucion": "aplicar_suspension_solucion_07",
+        "diagnostico": "copas_y_collarines_de_amortiguador_desgastados",
+        "prueba": "inspeccionar_copas_y_bujes_de_montaje",
+        "solucion": "reemplazar_copas_y_collarines_del_amortiguador",
         "prioridad": 7
     },
     {
@@ -2423,9 +2423,9 @@
             "inestabilidad_curvas",
             "crujido_delantero"
         ],
-        "diagnostico": "suspension_falla_007",
-        "prueba": "verificar_suspension_08",
-        "solucion": "aplicar_suspension_solucion_08",
+        "diagnostico": "resorte_de_suspension_roto_o_asentado",
+        "prueba": "medir_altura_de_carroceria_en_cada_esquina",
+        "solucion": "reemplazar_resorte_de_suspension_afectado",
         "prioridad": 8
     },
     {
@@ -2436,9 +2436,9 @@
             "fuga_amortiguador",
             "golpeteo_baches"
         ],
-        "diagnostico": "suspension_falla_008",
-        "prueba": "verificar_suspension_09",
-        "solucion": "aplicar_suspension_solucion_09",
+        "diagnostico": "amortiguador_con_fuga_de_aceite",
+        "prueba": "inspeccionar_vastago_y_sello_del_amortiguador",
+        "solucion": "reemplazar_amortiguador_defectuoso",
         "prioridad": 9
     },
     {
@@ -2449,9 +2449,9 @@
             "balanceo_excesivo",
             "vehiculo_inclinado"
         ],
-        "diagnostico": "suspension_falla_009",
-        "prueba": "verificar_suspension_10",
-        "solucion": "aplicar_suspension_solucion_10",
+        "diagnostico": "barra_estabilizadora_con_bujes_deteriorados",
+        "prueba": "inspeccionar_bujes_y_terminales_de_barra_estabilizadora",
+        "solucion": "reemplazar_bujes_y_terminales_de_barra_estabilizadora",
         "prioridad": 10
     },
     {
@@ -2462,9 +2462,9 @@
             "rebote_excesivo",
             "altura_desigual"
         ],
-        "diagnostico": "suspension_falla_010",
-        "prueba": "verificar_suspension_11",
-        "solucion": "aplicar_suspension_solucion_11",
+        "diagnostico": "amortiguadores_delanteros_desgastados",
+        "prueba": "inspeccionar_amortiguadores_y_resortes",
+        "solucion": "reemplazar_amortiguadores_y_realizar_alineacion",
         "prioridad": 1
     },
     {
@@ -2475,9 +2475,9 @@
             "ruido_amortiguador",
             "desgaste_copas"
         ],
-        "diagnostico": "suspension_falla_011",
-        "prueba": "verificar_suspension_12",
-        "solucion": "aplicar_suspension_solucion_12",
+        "diagnostico": "copas_y_collarines_de_amortiguador_desgastados",
+        "prueba": "inspeccionar_copas_y_bujes_de_montaje",
+        "solucion": "reemplazar_copas_y_collarines_del_amortiguador",
         "prioridad": 2
     },
     {
@@ -2488,9 +2488,9 @@
             "inestabilidad_curvas",
             "crujido_delantero"
         ],
-        "diagnostico": "suspension_falla_012",
-        "prueba": "verificar_suspension_13",
-        "solucion": "aplicar_suspension_solucion_13",
+        "diagnostico": "resorte_de_suspension_roto_o_asentado",
+        "prueba": "medir_altura_de_carroceria_en_cada_esquina",
+        "solucion": "reemplazar_resorte_de_suspension_afectado",
         "prioridad": 3
     },
     {
@@ -2501,9 +2501,9 @@
             "fuga_amortiguador",
             "golpeteo_baches"
         ],
-        "diagnostico": "suspension_falla_013",
-        "prueba": "verificar_suspension_14",
-        "solucion": "aplicar_suspension_solucion_14",
+        "diagnostico": "amortiguador_con_fuga_de_aceite",
+        "prueba": "inspeccionar_vastago_y_sello_del_amortiguador",
+        "solucion": "reemplazar_amortiguador_defectuoso",
         "prioridad": 4
     },
     {
@@ -2514,9 +2514,9 @@
             "balanceo_excesivo",
             "vehiculo_inclinado"
         ],
-        "diagnostico": "suspension_falla_014",
-        "prueba": "verificar_suspension_15",
-        "solucion": "aplicar_suspension_solucion_15",
+        "diagnostico": "barra_estabilizadora_con_bujes_deteriorados",
+        "prueba": "inspeccionar_bujes_y_terminales_de_barra_estabilizadora",
+        "solucion": "reemplazar_bujes_y_terminales_de_barra_estabilizadora",
         "prioridad": 5
     },
     {
@@ -2527,9 +2527,9 @@
             "rebote_excesivo",
             "altura_desigual"
         ],
-        "diagnostico": "suspension_falla_015",
-        "prueba": "verificar_suspension_01",
-        "solucion": "aplicar_suspension_solucion_01",
+        "diagnostico": "amortiguadores_delanteros_desgastados",
+        "prueba": "inspeccionar_amortiguadores_y_resortes",
+        "solucion": "reemplazar_amortiguadores_y_realizar_alineacion",
         "prioridad": 6
     }
 ]
